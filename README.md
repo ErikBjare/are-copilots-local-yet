@@ -60,3 +60,7 @@ As an alternative, local Copilots enable:
 - improved responsiveness.
 - the ability to run models specialized for a particular language/task.
 - [constraining the LLM output](https://twitter.com/ErikBjare/status/1656731582001020928) (using things like regular expressions) to fit a particular format/syntax.
+
+## Misc
+
+ - [Tweet announcing this repo](https://twitter.com/ErikBjare/status/1681616666600394753)
