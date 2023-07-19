@@ -9,9 +9,7 @@ The current state of using local LLM models to complete code.
 
 Local Copilots are in an early experimental stage, with most being of MVP-quality.
 
-This is in part due to the local models still being inferior to Copilot. They can also be difficult to set up, and have high hardware requirements. 
-
-This document is an attempt at removing some of the noise, and surfacing the state of the art as best as possible.
+This is in part due to the local models still being inferior to Copilot. They can also be difficult to set up, and have high hardware requirements. However, as models improve, and editor extensions get developed to use them, we're expected to get a renaissance of code-completion tools.
 
 
 ## Extensions
@@ -37,12 +35,14 @@ Models relevant for local Copilot-use:
 
 | Name        | Size | Languages | Stars | Notes |
 |-------------|------|-----------|-------|-------|
-| [Starcoder][starcoder]   | 15B | 80+       | >5k   |
-| [Wizardcoder][wc-v1] | 15B | 80+     | >390 | Fine-tuning of Starcoder
-| [replit-code-instruct-glaive][replit-glaive] | 3B | 1? | >70 | Small model with impressive performance
+| [Starcoder][starcoder]   | 15B | 80+        | >5k   |       |
+| [Wizardcoder][wc-v1] | 15B | 80+        | >390  | Fine-tuning of Starcoder |
+| [replit-v1-3b][replit-v1] | 3B | 20+        | >600  |       |
+| [replit-glaive][replit-glaive] | 3B | 1?        | >70   | Small model fine-tuned on high-quality data, with impressive performance. |
 
 [starcoder]: https://github.com/bigcode-project/starcoder
 [wc-v1]: https://huggingface.co/WizardLM/WizardCoder-15B-V1.0
+[replit-v1-3b]: https://huggingface.co/replit/replit-code-v1-3b
 [replit-glaive]: https://huggingface.co/sahil2801/replit-code-instruct-glaive
 [code-eval]:https://github.com/abacaj/code-eval
 
@@ -56,6 +56,7 @@ Many perceived limitations of GitHub's Copilot are related to its closed and clo
 
 As an alternative, local Copilots enable:
 
-- offline & private use
+- offline & private use.
+- improved responsiveness.
 - the ability to run models specialized for a particular language/task.
 - [constraining the LLM output](https://twitter.com/ErikBjare/status/1656731582001020928) (using things like regular expressions) to fit a particular format/syntax.
