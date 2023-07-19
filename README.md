@@ -6,31 +6,36 @@ The current state of using local LLM models to complete code.
 
 ## Extensions
 
+Editor extensions used to complete code using LLMs:
+
 | Name        | Editor | Stars | Notes   |
 |-------------|--------|-------|---------|
 | [Fauxpilot][fauxpilot]   | VSCode | >12k  | Stale?  |
-| [WizardCoder][wizardcoder-vsc] | VSCode | >50   | [article][https://medium.com/@anchen.li/build-your-own-copliot-using-open-source-llm-ff9da556cb09] |
-| [HuggingFace][hf-vscode] | VSCode | >300 | Supports Starcoder
-| [StarcoderEx][sc-ex] | VSCode | >60 | | Completes the cursor selection
+| [HuggingFace][hf-vscode] | VSCode | >300  | Fork of Tabnine, supports Starcoder |
+| [StarcoderEx][sc-ex] | VSCode | >60   | Completes the cursor selection |
+| [WizardCoder VSC][wc-vsc] | VSCode | >50   | PoC, [article][wc-vsc-blog] |
 
 [fauxpilot]: https://github.com/fauxpilot/fauxpilot
-[wizardcoder-vsc]: https://github.com/mzbac/wizardCoder-vsc
 [hf-vscode]: https://github.com/huggingface/huggingface-vscode
 [sc-ex]: https://github.com/Lisoveliy/StarCoderEx
+[wc-vsc]: https://github.com/mzbac/wizardCoder-vsc
+[wc-vsc-blog]: https://medium.com/@anchen.li/build-your-own-copliot-using-open-source-llm-ff9da556cb09
 
 ## Models
 
-Some models relevant for local Copilot-use. You can find more and benchmarks at: https://github.com/abacaj/code-eval
+Models relevant for local Copilot-use:
 
 | Name        | Size | Languages | Stars | Notes |
 |-------------|------|-----------|-------|-------|
 | [Starcoder][starcoder]   | 15B | 80+       | >5k   |
 | [Wizardcoder][wc-v1] | 15B | 80+     | >390 | Fine-tuning of Starcoder
-| [replit-code-instruct-glaive][] | 3B | 1? | >70 | Small model with impressive performance
+| [replit-code-instruct-glaive][replit-glaive] | 3B | 1? | >70 | Small model with impressive performance
 
 [starcoder]: https://github.com/bigcode-project/starcoder
 [wc-v1]: https://huggingface.co/WizardLM/WizardCoder-15B-V1.0
 [replit-glaive]: https://huggingface.co/sahil2801/replit-code-instruct-glaive
+
+You can find more models and benchmarks at: https://github.com/abacaj/code-eval
 
 ## Background
 
