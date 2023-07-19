@@ -1,6 +1,6 @@
-# Are code copilots local yet?
+# Are Copilots Local Yet?
 
-The current state of using local LLM models to complete code.
+The current state of using local LLM models as copilots to complete code.
 
 *Help keep this list relevant and up-to-date by [making edits](https://github.com/ErikBjare/are-copilots-local-yet/edit/master/README.md)!*
 
@@ -19,9 +19,9 @@ Editor extensions used to complete code using LLMs:
 | Name        | Editor | Stars | Notes   |
 |-------------|--------|-------|---------|
 | [Fauxpilot][fauxpilot]   | VSCode | >12k  | Stale?  |
-| [HuggingFace][hf-vscode] | VSCode | >300  | Fork of Tabnine, supports Starcoder |
+| [HuggingFace-vscode][hf-vscode] | VSCode | >300  | Fork of Tabnine, supports Starcoder |
 | [StarcoderEx][sc-ex] | VSCode | >60   | Completes the cursor selection |
-| [WizardCoder VSC][wc-vsc] | VSCode | >50   | PoC, [article][wc-vsc-blog] |
+| [WizardCoder-VSC][wc-vsc] | VSCode | >50   | PoC, [article][wc-vsc-blog] |
 
 [fauxpilot]: https://github.com/fauxpilot/fauxpilot
 [hf-vscode]: https://github.com/huggingface/huggingface-vscode
