@@ -2,7 +2,17 @@
 
 The current state of using local LLM models to complete code.
 
-***Help keep this list relevant and up-to-date my making pull requests!***
+*Help keep this list relevant and up-to-date by [making edits](https://github.com/ErikBjare/are-copilots-local-yet/edit/master/README.md)!*
+
+
+## Summary
+
+Local Copilots are in an early experimental stage, with most being of MVP-quality.
+
+This is in part due to the local models still being inferior to Copilot. They can also be difficult to set up, and have high hardware requirements. 
+
+This document is an attempt at removing some of the noise, and surfacing the state of the art as best as possible.
+
 
 ## Extensions
 
@@ -34,8 +44,9 @@ Models relevant for local Copilot-use:
 [starcoder]: https://github.com/bigcode-project/starcoder
 [wc-v1]: https://huggingface.co/WizardLM/WizardCoder-15B-V1.0
 [replit-glaive]: https://huggingface.co/sahil2801/replit-code-instruct-glaive
+[code-eval]:https://github.com/abacaj/code-eval
 
-You can find more models and benchmarks at: https://github.com/abacaj/code-eval
+You can find more models and benchmarks at: [abacaj/code-eval][abacaj/code-eval].
 
 ## Background
 
