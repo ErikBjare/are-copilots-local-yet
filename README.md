@@ -44,7 +44,7 @@ You can find more models and benchmarks at: [abacaj/code-eval][code-eval].
 
 [starcoder]: https://github.com/bigcode-project/starcoder
 [wc-v1]: https://huggingface.co/WizardLM/WizardCoder-15B-V1.0
-[replit-v1-3b]: https://huggingface.co/replit/replit-code-v1-3b
+[replit-v1]: https://huggingface.co/replit/replit-code-v1-3b
 [replit-glaive]: https://huggingface.co/sahil2801/replit-code-instruct-glaive
 [code-eval]:https://github.com/abacaj/code-eval
 
