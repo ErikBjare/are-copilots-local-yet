@@ -31,16 +31,28 @@ Editor extensions used to complete code using LLMs:
 [wc-vsc]: https://github.com/mzbac/wizardCoder-vsc
 [wc-vsc-blog]: https://medium.com/@anchen.li/build-your-own-copliot-using-open-source-llm-ff9da556cb09
 
+Tools that try to generate projects/features from specification:
+
+| Name         | Stars | Notes   |
+|--------------|-------|---------|
+| [gpt-engineer][gpt-engineer] | >42k  |         |
+| [mentat][mentat]       | >1.5k |         |
+
+[gpt-engineer]: https://github.com/AntonOsika/gpt-engineer
+[mentat]: https://github.com/biobootloader/mentat
+
+
 ## Models
 
 Models relevant for local Copilot-use:
 
-| Name        | Size | Languages | Stars | Notes |
-|-------------|------|-----------|-------|-------|
-| [Starcoder][starcoder]   | 15B | 80+        | >5k   |       |
-| [Wizardcoder][wc-v1] | 15B | 80+        | >390  | Fine-tuning of Starcoder |
-| [replit-v1-3b][replit-v1] | 3B | 20+        | >600  |       |
-| [replit-glaive][replit-glaive] | 3B | 1?        | >70   | Small model fine-tuned on high-quality data, with impressive performance. |
+| Name        | Size | Languages | Stars | Released | Notes |
+|-------------|------|-----------|-------|----------|-------|
+| [codellama][codellama]   | 7/13/34B | ?        | >2.7k   | 2023-8  | |
+| [Starcoder][starcoder]   | 15B | 80+        | >5k   | 2023-5  |       |
+| [Wizardcoder][wc-v1] | 15B | 80+        | >390  | 2023-6  | Fine-tuning of Starcoder |
+| [replit-v1-3b][replit-v1] | 3B | 20+        | >600  | 2023-5  |      |
+| [replit-glaive][replit-glaive] | 3B | 1?        | >70   | 2023-7  |Small model fine-tuned on high-quality data, with impressive performance. |
 
 You can find more models and benchmarks at: [abacaj/code-eval][code-eval].
 
@@ -48,7 +60,8 @@ You can find more models and benchmarks at: [abacaj/code-eval][code-eval].
 [wc-v1]: https://huggingface.co/WizardLM/WizardCoder-15B-V1.0
 [replit-v1]: https://huggingface.co/replit/replit-code-v1-3b
 [replit-glaive]: https://huggingface.co/sahil2801/replit-code-instruct-glaive
-[code-eval]:https://github.com/abacaj/code-eval
+[code-eval]: https://github.com/abacaj/code-eval
+[codellama]: https://github.com/facebookresearch/codellama
 
 ## Background
 
@@ -60,6 +73,7 @@ As an alternative, local Copilots enable:
 
 - offline & private use.
 - improved responsiveness.
+- better project/context awareness.
 - the ability to run models specialized for a particular language/task.
 - [constraining the LLM output](https://twitter.com/ErikBjare/status/1656731582001020928) (using things like regular expressions) to fit a particular format/syntax.
 
