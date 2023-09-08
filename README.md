@@ -2,7 +2,9 @@
 
 The current state of using local LLM models as copilots to complete code.
 
-*Help keep this list relevant and up-to-date by [making edits](https://github.com/ErikBjare/are-copilots-local-yet/edit/master/README.md)!*
+*Help keep this list relevant and up-to-date by [making edits][edit]!*
+
+[edit]: https://github.com/ErikBjare/are-copilots-local-yet/edit/master/README.md
 
 
 ## Summary
@@ -23,6 +25,7 @@ Editor extensions used to complete code using LLMs:
 | [HuggingFace-vscode][hf-vscode] | VSCode | >300  | Fork of Tabnine, supports Starcoder |
 | [StarcoderEx][sc-ex] | VSCode | >60   | Completes the cursor selection |
 | [WizardCoder-VSC][wc-vsc] | VSCode | >50   | PoC, [article][wc-vsc-blog] |
+| [turbopilot][turbopilot] | >3.8k |      |
 
 [fauxpilot]: https://github.com/fauxpilot/fauxpilot
 [tabby]: https://github.com/TabbyML/tabby
@@ -30,16 +33,34 @@ Editor extensions used to complete code using LLMs:
 [sc-ex]: https://github.com/Lisoveliy/StarCoderEx
 [wc-vsc]: https://github.com/mzbac/wizardCoder-vsc
 [wc-vsc-blog]: https://medium.com/@anchen.li/build-your-own-copliot-using-open-source-llm-ff9da556cb09
+[turbopilot]: https://github.com/ravenscroftj/turbopilot
+
 
 Tools that try to generate projects/features from specification:
 
 | Name         | Stars | Notes   |
 |--------------|-------|---------|
 | [gpt-engineer][gpt-engineer] | >42k  |         |
+| [continue][continue]     | >4k   |         |
+| [rift][rift]         | >2.5k | VSCode extension |
 | [mentat][mentat]       | >1.5k |         |
 
 [gpt-engineer]: https://github.com/AntonOsika/gpt-engineer
 [mentat]: https://github.com/biobootloader/mentat
+[rift]: https://github.com/morph-labs/rift
+[continue]: https://github.com/continuedev/continue
+
+
+Chat interfaces with shell access:
+
+| Name         | Stars | Notes   |
+|--------------|-------|---------|
+| [gptme][gptme] | >80 | Developed by me, @ErikBjare |
+| [terminal-x][terminal-x] | >30 | Very early prototype that converts natural language into shell commands, unmaintained since Sept. 2021 |
+
+
+[gptme]: https://github.com/ErikBjare/gptme
+[terminal-x]: https://github.com/davidfant/terminal-x
 
 
 ## Models
@@ -52,7 +73,7 @@ Models relevant for local Copilot-use:
 | [Starcoder][starcoder]   | 15B | 80+        | >5k   | 2023-5  |       |
 | [Wizardcoder][wc-v1] | 15B | 80+        | >390  | 2023-6  | Fine-tuning of Starcoder |
 | [replit-v1-3b][replit-v1] | 3B | 20+        | >600  | 2023-5  |      |
-| [replit-glaive][replit-glaive] | 3B | 1?        | >70   | 2023-7  |Small model fine-tuned on high-quality data, with impressive performance. |
+| [replit-glaive][replit-glaive] | 3B | 1?        | >70   | 2023-7  | Small model fine-tuned on high-quality data, with impressive performance. |
 
 You can find more models and benchmarks at: [abacaj/code-eval][code-eval].
 
