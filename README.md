@@ -55,10 +55,12 @@ Chat interfaces with shell access:
 
 | Name         | Stars | Notes   |
 |--------------|-------|---------|
+| [open-interpreter][oi] | >14.3k  |         |
 | [gptme][gptme] | >80 | Developed by me, @ErikBjare |
 | [terminal-x][terminal-x] | >30 | Very early prototype that converts natural language into shell commands, unmaintained since Sept. 2021 |
 
 
+[oi]: https://github.com/KillianLucas/open-interpreter
 [gptme]: https://github.com/ErikBjare/gptme
 [terminal-x]: https://github.com/davidfant/terminal-x
 
