@@ -25,7 +25,7 @@ Editor extensions used to complete code using LLMs:
 | [HuggingFace-vscode][hf-vscode] | VSCode | >300  | Fork of Tabnine, supports Starcoder |
 | [StarcoderEx][sc-ex] | VSCode | >60   | Completes the cursor selection |
 | [WizardCoder-VSC][wc-vsc] | VSCode | >50   | PoC, [article][wc-vsc-blog] |
-| [turbopilot][turbopilot] | >3.8k |      |
+| [turbopilot][turbopilot] | VSCode | >3.8k |      |
 
 [fauxpilot]: https://github.com/fauxpilot/fauxpilot
 [tabby]: https://github.com/TabbyML/tabby
