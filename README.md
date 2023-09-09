@@ -73,18 +73,20 @@ Models relevant for local Copilot-use:
 |-------------|------|-----------|-------|----------|-------|
 | [codellama][codellama]   | 7/13/34B | ?        | >2.7k   | 2023-8  | |
 | [Starcoder][starcoder]   | 15B | 80+        | >5k   | 2023-5  |       |
-| [Wizardcoder][wc-v1] | 15B | 80+        | >390  | 2023-6  | Fine-tuning of Starcoder |
+| [WizardCoder-Python][wc-py] | 7/13/34B | Python | >500 | 2023-8 | |
+| [WizardCoder][wc-v1] | 15B | 80+        | >390  | 2023-6  | Fine-tuning of Starcoder |
 | [replit-v1-3b][replit-v1] | 3B | 20+        | >600  | 2023-5  |      |
 | [replit-glaive][replit-glaive] | 3B | 1?        | >70   | 2023-7  | Small model fine-tuned on high-quality data, with impressive performance. |
 
-You can find more models and benchmarks at: [abacaj/code-eval][code-eval].
-
 [starcoder]: https://github.com/bigcode-project/starcoder
 [wc-v1]: https://huggingface.co/WizardLM/WizardCoder-15B-V1.0
+[wc-py]: https://huggingface.co/WizardLM/WizardCoder-Python-34B-V1.0
 [replit-v1]: https://huggingface.co/replit/replit-code-v1-3b
 [replit-glaive]: https://huggingface.co/sahil2801/replit-code-instruct-glaive
-[code-eval]: https://github.com/abacaj/code-eval
 [codellama]: https://github.com/facebookresearch/codellama
+
+You can find more models and benchmarks at: [abacaj/code-eval][code-eval].
+[code-eval]: https://github.com/abacaj/code-eval
 
 ## Background
 
