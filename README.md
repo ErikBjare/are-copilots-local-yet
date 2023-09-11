@@ -38,14 +38,14 @@ As an alternative, local Copilots enable:
 
 Editor extensions used to complete code using LLMs:
 
-| Name        | Editor | Stars | Notes   |
-|-------------|--------|-------|---------|
-| [Fauxpilot][fauxpilot]   | VSCode | >12k  | Stale?  |
-| [Tabby][tabby] | VSCode | >8k | Completes the cursor selection  |
-| [HuggingFace-vscode][hf-vscode] | VSCode | >300  | Fork of Tabnine, supports Starcoder |
-| [StarcoderEx][sc-ex] | VSCode | >60   | Completes the cursor selection |
-| [WizardCoder-VSC][wc-vsc] | VSCode | >50   | PoC, [article][wc-vsc-blog] |
-| [turbopilot][turbopilot] | VSCode | >3.8k |      |
+| Name                            | Editor   | Stars   | Notes                               |
+| -------------                   | -------- | ------- | ---------                           |
+| [Fauxpilot][fauxpilot]          | VSCode   | >12k    | Stale?                              |
+| [Tabby][tabby]                  | VSCode   | >8k     | Completes the cursor selection      |
+| [HuggingFace-vscode][hf-vscode] | VSCode   | >300    | Fork of Tabnine, supports Starcoder |
+| [StarcoderEx][sc-ex]            | VSCode   | >60     | Completes the cursor selection      |
+| [WizardCoder-VSC][wc-vsc]       | VSCode   | >50     | PoC, [article][wc-vsc-blog]         |
+| [turbopilot][turbopilot]        | VSCode   | >3.8k   |                                     |
 
 [fauxpilot]: https://github.com/fauxpilot/fauxpilot
 [tabby]: https://github.com/TabbyML/tabby
@@ -59,13 +59,13 @@ Editor extensions used to complete code using LLMs:
 
 Tools that try to generate projects/features from specification:
 
-| Name         | Stars | Notes   |
-|--------------|-------|---------|
-| [gpt-engineer][gpt-engineer] | >42k  |         |
-| [continue][continue]     | >4k   |         |
-| [rift][rift]         | >2.5k | VSCode extension |
-| [mentat][mentat]       | >1.5k |         |
-| [clippinator][clippinator]  | >200  | Uses a team of agents to plan, write, debug, and test |
+| Name                         | Stars   | Notes                                                 |
+| --------------               | ------- | ---------                                             |
+| [gpt-engineer][gpt-engineer] | >42k    |                                                       |
+| [continue][continue]         | >4k     | VSCode extension, task-based autocomplete             |
+| [rift][rift]                 | >2.5k   | VSCode extension                                      |
+| [mentat][mentat]             | >1.5k   |                                                       |
+| [clippinator][clippinator]   | >200    | Uses a team of agents to plan, write, debug, and test |
 
 [gpt-engineer]: https://github.com/AntonOsika/gpt-engineer
 [continue]: https://github.com/continuedev/continue
@@ -77,11 +77,11 @@ Tools that try to generate projects/features from specification:
 
 Chat interfaces with shell access:
 
-| Name         | Stars | Notes   |
-|--------------|-------|---------|
-| [open-interpreter][oi] | >14.3k  |         |
-| [gptme][gptme] | >80 | Developed by me, @ErikBjare |
-| [terminal-x][terminal-x] | >30 | Very early prototype that converts natural language into shell commands, unmaintained since Sept. 2021 |
+| Name                     | Stars   | Notes                                                                                                  |
+| --------------           | ------- | ---------                                                                                              |
+| [open-interpreter][oi]   | >14.3k  | Alternative to ChatGPT "Code Interpreter"                                                              |
+| [gptme][gptme]           | >80     | Alternative to ChatGPT "Code Interpreter". Supporting open models. Developed by me, @ErikBjare         |
+| [terminal-x][terminal-x] | >30     | Very early prototype that converts natural language into shell commands, unmaintained since Sept. 2021 |
 
 [oi]: https://github.com/KillianLucas/open-interpreter
 [gptme]: https://github.com/ErikBjare/gptme
@@ -91,14 +91,14 @@ Chat interfaces with shell access:
 
 Models relevant for local Copilot-use:
 
-| Name        | Size | Languages | Stars | Released | Notes |
-|-------------|------|-----------|-------|----------|-------|
-| [codellama][codellama]   | 7/13/34B | ?        | >2.7k   | 2023-8  | |
-| [Starcoder][starcoder]   | 15B | 80+        | >5k   | 2023-5  |       |
-| [WizardCoder-Python][wc-py] | 7/13/34B | Python | >500 | 2023-8 | |
-| [WizardCoder][wc-v1] | 15B | 80+        | >390  | 2023-6  | Fine-tuning of Starcoder |
-| [replit-v1-3b][replit-v1] | 3B | 20+        | >600  | 2023-5  |      |
-| [replit-glaive][replit-glaive] | 3B | 1?        | >70   | 2023-7  | Small model fine-tuned on high-quality data, with impressive performance. |
+| Name                            | Size       | Languages   | Stars   | Released   | Notes                                                                    |
+| ------------------------------- | ---------- | ----------- | ------- | ---------- | -------                                                                  |
+| [codellama][codellama]          | 7/13/34B   | ?           | >2.7k   | 2023-8     |                                                                          |
+| [WizardCoder-Python][wc-py]     | 7/13/34B   | Python      | >500    | 2023-8     |                                                                          |
+| [WizardCoder][wc-v1]            | 15B        | 80+         | >390    | 2023-6     | Fine-tuning of Starcoder                                                 |
+| [Starcoder][starcoder]          | 15B        | 80+         | >5k     | 2023-5     |                                                                          |
+| [replit-v1-3b][replit-v1]       | 3B         | 20+         | >600    | 2023-5     |                                                                          |
+| [replit-glaive][replit-glaive]  | 3B         | 1?          | >70     | 2023-7     | Small model fine-tuned on high-quality data with impressive performance. |
 
 [codellama]: https://github.com/facebookresearch/codellama
 [starcoder]: https://github.com/bigcode-project/starcoder
