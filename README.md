@@ -112,3 +112,9 @@ Models relevant for local Copilot-use:
 - 🐦 [Tweet announcing this repo][announce]
 
 [announce]: https://twitter.com/ErikBjare/status/1681616666600394753
+
+## 📈 Stats
+
+Stargazers over time:
+
+[![Stargazers over time](https://starchart.cc/ErikBjare/are-copilots-local-yet.svg)](https://starchart.cc/ErikBjare/are-copilots-local-yet)
