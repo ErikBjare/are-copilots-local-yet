@@ -38,15 +38,19 @@ As an alternative, local Copilots enable:
 
 Editor extensions used to complete code using LLMs:
 
-| Name                            | Editor   | Stars   | Notes                               |
-| -------------                   | -------- | ------- | ---------                           |
-| [Fauxpilot][fauxpilot]          | VSCode   | >12k    | Stale?                              |
-| [Tabby][tabby]                  | VSCode   | >8k     | Completes the cursor selection      |
-| [HuggingFace-vscode][hf-vscode] | VSCode   | >300    | Fork of Tabnine, supports Starcoder |
-| [StarcoderEx][sc-ex]            | VSCode   | >60     | Completes the cursor selection      |
-| [WizardCoder-VSC][wc-vsc]       | VSCode   | >50     | PoC, [article][wc-vsc-blog]         |
-| [turbopilot][turbopilot]        | VSCode   | >3.8k   |                                     |
+| Name                            | Editor      | Stars   | Notes                               |
+| -------------                   | --------    | ------- | ---------                           |
+| [Copilot][copilot-vim]          | VSCode, vim | Many    | The GitHub Original                 |
+| [Cursor][cursor]                | VSCode      | >17k    | Fork of VSCode, not open-source     |
+| [Fauxpilot][fauxpilot]          | VSCode      | >12k    | Stale?                              |
+| [Tabby][tabby]                  | VSCode      | >8k     | Completes the cursor selection      |
+| [HuggingFace-vscode][hf-vscode] | VSCode      | >300    | Fork of Tabnine, supports Starcoder |
+| [StarcoderEx][sc-ex]            | VSCode      | >60     | Completes the cursor selection      |
+| [WizardCoder-VSC][wc-vsc]       | VSCode      | >50     | PoC, [article][wc-vsc-blog]         |
+| [turbopilot][turbopilot]        | VSCode      | >3.8k   |                                     |
 
+[copilot-vim]: https://github.com/github/copilot.vim
+[cursor]: https://github.com/getcursor/cursor
 [fauxpilot]: https://github.com/fauxpilot/fauxpilot
 [tabby]: https://github.com/TabbyML/tabby
 [hf-vscode]: https://github.com/huggingface/huggingface-vscode
