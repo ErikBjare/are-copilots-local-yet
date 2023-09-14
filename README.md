@@ -70,12 +70,14 @@ Tools that try to generate projects/features from specification:
 | [rift][rift]                 | >2.5k   | VSCode extension                                      |
 | [mentat][mentat]             | >1.5k   |                                                       |
 | [clippinator][clippinator]   | >200    | Uses a team of agents to plan, write, debug, and test |
+| [aider][aider]               | >3.8k   |                                                       |
 
 [gpt-engineer]: https://github.com/AntonOsika/gpt-engineer
 [continue]: https://github.com/continuedev/continue
 [rift]: https://github.com/morph-labs/rift
 [mentat]: https://github.com/biobootloader/mentat
 [clippinator]: https://github.com/ennucore/clippinator
+[aider]: https://github.com/paul-gauthier/aider
 
 ## 🗨️ Chat Interfaces
 
