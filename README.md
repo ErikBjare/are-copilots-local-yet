@@ -38,16 +38,16 @@ As an alternative, local Copilots enable:
 
 Editor extensions used to complete code using LLMs:
 
-| Name                            | Editor      | Stars   | Notes                               |
-| -------------                   | --------    | ------- | ---------                           |
-| [Copilot][copilot-vim]          | VSCode, vim | Many    | The GitHub Original                 |
-| [Cursor][cursor]                | VSCode      | >17k    | Fork of VSCode, not open-source     |
-| [Fauxpilot][fauxpilot]          | VSCode      | >12k    | Stale?                              |
-| [Tabby][tabby]                  | VSCode      | >8k     | Completes the cursor selection      |
-| [HuggingFace-vscode][hf-vscode] | VSCode      | >300    | Fork of Tabnine, supports Starcoder |
-| [StarcoderEx][sc-ex]            | VSCode      | >60     | Completes the cursor selection      |
-| [WizardCoder-VSC][wc-vsc]       | VSCode      | >50     | PoC, [article][wc-vsc-blog]         |
-| [turbopilot][turbopilot]        | VSCode      | >3.8k   |                                     |
+| Name                            | Editor      | Stars   | Released  | Notes                                               |
+| -------------                   | --------    | ------- | --------  | ---------                                           |
+| [GitHub Copilot][copilot-vim]   | VSCode, vim | Many    | 2021-6-29 | The GitHub Original, not local or open-source.      |
+| [Cursor][cursor]                | VSCode      | >17k    | 2023-3-14 | Fork of VSCode, not open-source                     |
+| [Fauxpilot][fauxpilot]          | VSCode      | >12k    | 2022-9-3  | Early local PoC. Stale?                             |
+| [Tabby][tabby]                  | VSCode      | >8k     | 2023-9-30 | Completes the cursor selection                      |
+| [turbopilot][turbopilot]        | VSCode      | >3.8k   | 2023-4-10 | Completions with FIM support, inspired by fauxpilot |
+| [HuggingFace-vscode][hf-vscode] | VSCode      | >300    | 2023-6-19 | Fork of Tabnine, supports Starcoder                 |
+| [StarcoderEx][sc-ex]            | VSCode      | >60     |           | Completes the cursor selection                      |
+| [WizardCoder-VSC][wc-vsc]       | VSCode      | >50     |           | PoC, [article][wc-vsc-blog]                         |
 
 [copilot-vim]: https://github.com/github/copilot.vim
 [cursor]: https://github.com/getcursor/cursor
@@ -63,14 +63,14 @@ Editor extensions used to complete code using LLMs:
 
 Tools that try to generate projects/features from specification:
 
-| Name                         | Stars   | Notes                                                 |
-| --------------               | ------- | ---------                                             |
-| [gpt-engineer][gpt-engineer] | >42k    |                                                       |
-| [continue][continue]         | >4k     | VSCode extension, task-based autocomplete             |
-| [rift][rift]                 | >2.5k   | VSCode extension                                      |
-| [mentat][mentat]             | >1.5k   |                                                       |
-| [clippinator][clippinator]   | >200    | Uses a team of agents to plan, write, debug, and test |
-| [aider][aider]               | >3.8k   |                                                       |
+| Name                         | Stars   | Released  | Notes                                                                                                                |
+| --------------               | ------- | --------- |
+| [gpt-engineer][gpt-engineer] | >42k    | 2023-6-6  | Specify what you want it to build, the AI asks for clarification, and then builds it.                                |
+| [continue][continue]         | >4k     | 2023-5-24 | VSCode extension. Task-based autocomplete                                                                            |
+| [aider][aider]               | >3.8k   | 2023-6-8  | AI pair programming in your terminal, "works well with pre-existing, larger codebases"                               |
+| [rift][rift]                 | >2.5k   | 2023-6-20 | VSCode extension. Lets you write code by chatting, "makes your IDE agentic", "AI engineer that works alongside you". |
+| [mentat][mentat]             | >1.5k   | 2023-7-25 | Mentat coordinates edits across multiple locations and files.                                                        |
+| [clippinator][clippinator]   | >200    | 2023-4-15 | Uses a team of agents to plan, write, debug, and test                                                                |
 
 [gpt-engineer]: https://github.com/AntonOsika/gpt-engineer
 [continue]: https://github.com/continuedev/continue
@@ -81,12 +81,13 @@ Tools that try to generate projects/features from specification:
 
 ## 🗨️ Chat Interfaces
 
-Chat interfaces with shell access:
+Chat interfaces with shell/REPL/notebook access. 
+Similar to/inspired by ChatGPT's "Advanced Data Analysis" feature (previously "Code Interpreter").
 
 | Name                     | Stars   | Notes                                                                                                  |
 | --------------           | ------- | ---------                                                                                              |
-| [open-interpreter][oi]   | >14.3k  | Alternative to ChatGPT "Code Interpreter"                                                              |
-| [gptme][gptme]           | >80     | Alternative to ChatGPT "Code Interpreter". Supporting open models. Developed by me, @ErikBjare         |
+| [open-interpreter][oi]   | >14.3k  |                                                                                                        |
+| [gptme][gptme]           | >80     | Supporting open models. Developed by me, @ErikBjare                                                    |
 | [terminal-x][terminal-x] | >30     | Very early prototype that converts natural language into shell commands, unmaintained since Sept. 2021 |
 
 [oi]: https://github.com/KillianLucas/open-interpreter
@@ -94,6 +95,7 @@ Chat interfaces with shell access:
 [terminal-x]: https://github.com/davidfant/terminal-x
 
 ## 🤖 Models
+
 
 Models relevant for local Copilot-use:
 
@@ -112,6 +114,8 @@ Models relevant for local Copilot-use:
 [wc-v1]: https://huggingface.co/WizardLM/WizardCoder-15B-V1.0
 [replit-v1]: https://huggingface.co/replit/replit-code-v1-3b
 [replit-glaive]: https://huggingface.co/sahil2801/replit-code-instruct-glaive
+
+**Note:** due to the pace of new model releases, this section is doomed to be out of date.
 
 ## 📰 Misc
 
