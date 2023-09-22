@@ -64,7 +64,7 @@ Editor extensions used to complete code using LLMs:
 Tools that try to generate projects/features from specification:
 
 | Name                         | Stars   | Released  | Notes                                                                                                                |
-| --------------               | ------- | --------- |
+| --------------               | ------- | --------- | |
 | [gpt-engineer][gpt-engineer] | >42k    | 2023-6-6  | Specify what you want it to build, the AI asks for clarification, and then builds it.                                |
 | [continue][continue]         | >4k     | 2023-5-24 | VSCode extension. Task-based autocomplete                                                                            |
 | [aider][aider]               | >3.8k   | 2023-6-8  | AI pair programming in your terminal, "works well with pre-existing, larger codebases"                               |
