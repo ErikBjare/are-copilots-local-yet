@@ -38,13 +38,13 @@ As an alternative, local Copilots enable:
 
 Editor extensions used to complete code using LLMs:
 
-| Name                            | Editor      | Stars   | Released  | Notes                                               |
+| Name                            | Editor      | :star:  | Released  | Notes                                               |
 | -------------                   | --------    | ------- | --------  | ---------                                           |
 | [GitHub Copilot][copilot-vim]   | VSCode, vim | Many    | 2021-6-29 | The GitHub Original, not local or open-source.      |
 | [Cursor][cursor]                | VSCode      | >17k    | 2023-3-14 | Fork of VSCode, not open-source                     |
 | [Fauxpilot][fauxpilot]          | VSCode      | >12k    | 2022-9-3  | Early local PoC. Stale?                             |
 | [Tabby][tabby]                  | VSCode      | >8k     | 2023-9-30 | Completes the cursor selection                      |
-| [turbopilot][turbopilot]        | VSCode      | >3.8k   | 2023-4-10 | Completions with FIM support, inspired by fauxpilot |
+| [turbopilot][turbopilot]        | VSCode      | >3k     | 2023-4-10 | Completions with FIM support, inspired by fauxpilot |
 | [HuggingFace-vscode][hf-vscode] | VSCode      | >300    | 2023-6-19 | Fork of Tabnine, supports Starcoder                 |
 | [StarcoderEx][sc-ex]            | VSCode      | >60     |           | Completes the cursor selection                      |
 | [WizardCoder-VSC][wc-vsc]       | VSCode      | >50     |           | PoC, [article][wc-vsc-blog]                         |
@@ -63,13 +63,13 @@ Editor extensions used to complete code using LLMs:
 
 Tools that try to generate projects/features from specification:
 
-| Name                         | Stars   | Released  | Notes                                                                                                                |
-| --------------               | ------- | --------- |
+| Name                         | :star:  | Released  | Notes                                                                                                                |
+| --------------               | ------- | --------- | -----                                                                                                                |
 | [gpt-engineer][gpt-engineer] | >42k    | 2023-6-6  | Specify what you want it to build, the AI asks for clarification, and then builds it.                                |
 | [continue][continue]         | >4k     | 2023-5-24 | VSCode extension. Task-based autocomplete                                                                            |
-| [aider][aider]               | >3.8k   | 2023-6-8  | AI pair programming in your terminal, "works well with pre-existing, larger codebases"                               |
-| [rift][rift]                 | >2.5k   | 2023-6-20 | VSCode extension. Lets you write code by chatting, "makes your IDE agentic", "AI engineer that works alongside you". |
-| [mentat][mentat]             | >1.5k   | 2023-7-25 | Mentat coordinates edits across multiple locations and files.                                                        |
+| [aider][aider]               | >3k     | 2023-6-8  | AI pair programming in your terminal, "works well with pre-existing, larger codebases"                               |
+| [rift][rift]                 | >2k     | 2023-6-20 | VSCode extension. Lets you write code by chatting, "makes your IDE agentic", "AI engineer that works alongside you". |
+| [mentat][mentat]             | >1k     | 2023-7-25 | Mentat coordinates edits across multiple locations and files.                                                        |
 | [clippinator][clippinator]   | >200    | 2023-4-15 | Uses a team of agents to plan, write, debug, and test                                                                |
 
 [gpt-engineer]: https://github.com/AntonOsika/gpt-engineer
@@ -84,9 +84,9 @@ Tools that try to generate projects/features from specification:
 Chat interfaces with shell/REPL/notebook access. 
 Similar to/inspired by ChatGPT's "Advanced Data Analysis" feature (previously "Code Interpreter").
 
-| Name                     | Stars   | Notes                                                                                                  |
+| Name                     | :star:  | Notes                                                                                                  |
 | --------------           | ------- | ---------                                                                                              |
-| [open-interpreter][oi]   | >14.3k  |                                                                                                        |
+| [open-interpreter][oi]   | >14k    | "open-source, locally running implementation of OpenAI's Code Interpreter"                             |
 | [gptme][gptme]           | >80     | Supporting open models. Developed by me, @ErikBjare                                                    |
 | [terminal-x][terminal-x] | >30     | Very early prototype that converts natural language into shell commands, unmaintained since Sept. 2021 |
 
@@ -99,9 +99,9 @@ Similar to/inspired by ChatGPT's "Advanced Data Analysis" feature (previously "C
 
 Models relevant for local Copilot-use:
 
-| Name                            | Size       | Languages   | Stars   | Released   | Notes                                                                    |
+| Name                            | Size       | Languages   | :star:  | Released   | Notes                                                                    |
 | ------------------------------- | ---------- | ----------- | ------- | ---------- | -------                                                                  |
-| [codellama][codellama]          | 7/13/34B   | ?           | >2.7k   | 2023-8     |                                                                          |
+| [codellama][codellama]          | 7/13/34B   | ?           | >2  k   | 2023-8     |                                                                          |
 | [WizardCoder-Python][wc-py]     | 7/13/34B   | Python      | >500    | 2023-8     |                                                                          |
 | [WizardCoder][wc-v1]            | 15B        | 80+         | >390    | 2023-6     | Fine-tuning of Starcoder                                                 |
 | [Starcoder][starcoder]          | 15B        | 80+         | >5k     | 2023-5     |                                                                          |
