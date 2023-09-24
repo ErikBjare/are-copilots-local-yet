@@ -1,6 +1,6 @@
 # 🛠️ Are Copilots Local Yet?
 
-The current state of using local LLM models as copilots to complete code, generate projects, act as shell assistants, automatically fix bugs, and more.
+Current trends and state of the art for using open & local LLM models as copilots to complete code, generate projects, act as shell assistants, automatically fix bugs, and more.
 
 📝 *Help keep this list relevant and up-to-date by [making edits][edit]!*
 
