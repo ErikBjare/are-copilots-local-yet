@@ -66,6 +66,7 @@ Tools that try to generate projects/features from specification:
 | Name                         | :star:  | Released  | Notes                                                                                                                |
 | --------------               | ------- | --------- | -----                                                                                                                |
 | [gpt-engineer][gpt-engineer] | >42k    | 2023-6-6  | Specify what you want it to build, the AI asks for clarification, and then builds it.                                |
+| [gpt-pilot][gpt-pilot]       | >4k     | 2023-7-18 | Very similar to gpt-engineer                                                                                         |
 | [continue][continue]         | >4k     | 2023-5-24 | VSCode extension. Task-based autocomplete                                                                            |
 | [aider][aider]               | >3k     | 2023-6-8  | AI pair programming in your terminal, "works well with pre-existing, larger codebases"                               |
 | [rift][rift]                 | >2k     | 2023-6-20 | VSCode extension. Lets you write code by chatting, "makes your IDE agentic", "AI engineer that works alongside you". |
@@ -73,6 +74,7 @@ Tools that try to generate projects/features from specification:
 | [clippinator][clippinator]   | >200    | 2023-4-15 | Uses a team of agents to plan, write, debug, and test                                                                |
 
 [gpt-engineer]: https://github.com/AntonOsika/gpt-engineer
+[gpt-pilot]: https://github.com/Pythagora-io/gpt-pilot
 [continue]: https://github.com/continuedev/continue
 [rift]: https://github.com/morph-labs/rift
 [mentat]: https://github.com/biobootloader/mentat
