@@ -96,17 +96,17 @@ Similar to/inspired by ChatGPT's "Advanced Data Analysis" feature (previously "C
 
 ## 🤖 Models
 
-
-Models relevant for local Copilot-use:
+Models relevant for local Copilot-use. Ordered by most recent first.
 
 | Name                            | Size       | Languages   | :star:  | Released   | Notes                                                                    |
 | ------------------------------- | ---------- | ----------- | ------- | ---------- | -------                                                                  |
-| [codellama][codellama]          | 7/13/34B   | ?           | >2k     | 2023-8     |                                                                          |
+| [Phind CodeLlama v2][phind2]    | 34B        | Many        | >400    | 2023-8-27  |                                                                          |
 | [WizardCoder-Python][wc-py]     | 7/13/34B   | Python      | >500    | 2023-8     |                                                                          |
+| [CodeLlama][codellama]          | 7/13/34B   | Many        | >2k     | 2023-8     |                                                                          |
 | [WizardCoder][wc-v1]            | 15B        | 80+         | >390    | 2023-6     | Fine-tuning of Starcoder                                                 |
+| [replit-glaive][replit-glaive]  | 3B         | 1?          | >70     | 2023-7     | Small model fine-tuned on high-quality data with impressive performance. |
 | [Starcoder][starcoder]          | 15B        | 80+         | >5k     | 2023-5     |                                                                          |
 | [replit-v1-3b][replit-v1]       | 3B         | 20+         | >600    | 2023-5     |                                                                          |
-| [replit-glaive][replit-glaive]  | 3B         | 1?          | >70     | 2023-7     | Small model fine-tuned on high-quality data with impressive performance. |
 
 [codellama]: https://github.com/facebookresearch/codellama
 [starcoder]: https://github.com/bigcode-project/starcoder
@@ -114,6 +114,7 @@ Models relevant for local Copilot-use:
 [wc-v1]: https://huggingface.co/WizardLM/WizardCoder-15B-V1.0
 [replit-v1]: https://huggingface.co/replit/replit-code-v1-3b
 [replit-glaive]: https://huggingface.co/sahil2801/replit-code-instruct-glaive
+[phind2]: https://huggingface.co/Phind/Phind-CodeLlama-34B-v2
 
 **Note:** due to the pace of new model releases, this section is doomed to be out of date.
 
