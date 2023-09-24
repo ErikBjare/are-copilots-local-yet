@@ -101,7 +101,7 @@ Models relevant for local Copilot-use:
 
 | Name                            | Size       | Languages   | :star:  | Released   | Notes                                                                    |
 | ------------------------------- | ---------- | ----------- | ------- | ---------- | -------                                                                  |
-| [codellama][codellama]          | 7/13/34B   | ?           | >2  k   | 2023-8     |                                                                          |
+| [codellama][codellama]          | 7/13/34B   | ?           | >2k     | 2023-8     |                                                                          |
 | [WizardCoder-Python][wc-py]     | 7/13/34B   | Python      | >500    | 2023-8     |                                                                          |
 | [WizardCoder][wc-v1]            | 15B        | 80+         | >390    | 2023-6     | Fine-tuning of Starcoder                                                 |
 | [Starcoder][starcoder]          | 15B        | 80+         | >5k     | 2023-5     |                                                                          |
