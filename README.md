@@ -90,11 +90,13 @@ Similar to/inspired by ChatGPT's "Advanced Data Analysis" feature (previously "C
 | --------------           | ------- | ---------                                                                                              |
 | [open-interpreter][oi]   | >14k    | "open-source, locally running implementation of OpenAI's Code Interpreter"                             |
 | [gptme][gptme]           | >80     | Supporting open models. Developed by me, @ErikBjare                                                    |
+| [octogen][octogen] | >40 | Local Code Interpreter executing in Docker environment. |
 | [terminal-x][terminal-x] | >30     | Very early prototype that converts natural language into shell commands, unmaintained since Sept. 2021 |
 
 [oi]: https://github.com/KillianLucas/open-interpreter
 [gptme]: https://github.com/ErikBjare/gptme
 [terminal-x]: https://github.com/davidfant/terminal-x
+[octogen]: https://github.com/dbpunk-labs/octogen
 
 ## 🤖 Models
 
