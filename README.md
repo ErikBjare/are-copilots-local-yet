@@ -46,6 +46,7 @@ Editor extensions used to complete code using LLMs:
 | [Tabby][tabby]                  | VSCode      | >8k     | 2023-9-30 | Completes the cursor selection                      |
 | [turbopilot][turbopilot]        | VSCode      | >3k     | 2023-4-10 | Completions with FIM support, inspired by fauxpilot |
 | [HuggingFace-vscode][hf-vscode] | VSCode      | >300    | 2023-6-19 | Fork of Tabnine, supports Starcoder                 |
+| [localpilot][localpilot] | VSCode      | >140    | 2023-10-2 |                  |
 | [StarcoderEx][sc-ex]            | VSCode      | >60     |           | Completes the cursor selection                      |
 | [WizardCoder-VSC][wc-vsc]       | VSCode      | >50     |           | PoC, [article][wc-vsc-blog]                         |
 
@@ -58,6 +59,7 @@ Editor extensions used to complete code using LLMs:
 [wc-vsc]: https://github.com/mzbac/wizardCoder-vsc
 [wc-vsc-blog]: https://medium.com/@anchen.li/build-your-own-copliot-using-open-source-llm-ff9da556cb09
 [turbopilot]: https://github.com/ravenscroftj/turbopilot
+[localpilot]: https://github.com/danielgross/localpilot
 
 ## 🛠️ Tools
 
