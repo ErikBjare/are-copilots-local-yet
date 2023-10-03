@@ -49,17 +49,17 @@ As an alternative, local Copilots enable:
 
 Editor extensions used to complete code using LLMs:
 
-| Name                            | Editor      | :star:  | Released  | Notes                                               |
-| -------------                   | --------    | ------- | --------  | ---------                                           |
-{% for item in extensions %}| [{{ item.name }}]({{ item.link }}) | {{ item.editor | join(", ") }} | {{ item.stars }} | {{ item.released }} | {{ item.notes }} |
+| Name          | Editor   | :star:  | Released | Notes     |
+| ------------- | -------- | ------- | -------- | --------- |
+{% for item in extensions %}| [{{ item.name }}{% if item.new %}NEW!{% endif %}]({{ item.link }}) | {{ item.editor | join(", ") }} | {{ item.stars }} | {{ item.released or '' }} | {{ item.notes }} |
 {% endfor %}
 
 ## 🛠️ Tools
 
 Tools that try to generate projects/features from specification:
 
-| Name                         | :star:  | Released  | Notes                                                                                                                |
-| --------------               | ------- | --------- | -----                                                                                                                |
+| Name           | :star:  | Released  | Notes |
+| -------------- | ------- | --------- | ----- |
 {% for item in tools %}| [{{ item.name }}]({{ item.link }}) | {{ item.stars }} | {{ item.released }} | {{ item.notes }} |
 {% endfor %}
 
@@ -68,8 +68,8 @@ Tools that try to generate projects/features from specification:
 Chat interfaces with shell/REPL/notebook access.
 Similar to/inspired by ChatGPT's "Advanced Data Analysis" feature (previously "Code Interpreter").
 
-| Name                     | :star:  | Notes                                                                                                  |
-| --------------           | ------- | ---------                                                                                              |
+| Name           | :star:  | Notes     |
+| -------------- | ------- | --------- |
 {% for item in chat %}| [{{ item.name }}]({{ item.link }}) | {{ item.stars }} | {{ item.notes }} |
 {% endfor %}
 
@@ -77,8 +77,8 @@ Similar to/inspired by ChatGPT's "Advanced Data Analysis" feature (previously "C
 
 Models relevant for local Copilot-use. Ordered by most recent first.
 
-| Name                            | Size       | Languages   | :star:  | Released   | Notes                                                                    |
-| ------------------------------- | ---------- | ----------- | ------- | ---------- | -------                                                                  |
+| Name                            | Size       | Languages   | :star:  | Released   | Notes   |
+| ------------------------------- | ---------- | ----------- | ------- | ---------- | ------- |
 {% for item in models %}| [{{ item.name }}]({{ item.link }}) | {{ item.size }} | {{ item.languages }} | {{ item.stars }} | {{ item.released }} | {{ item.notes }} |
 {% endfor %}
 
@@ -88,8 +88,8 @@ Models relevant for local Copilot-use. Ordered by most recent first.
 
 Datasets relevant for training models.
 
-| Name                            | Size                   | Languages   | :star:  | Released   | Notes                                                       |
-| ------------------------------- | ----------             | ----------- | ------- | ---------- | -------                                                     |
+| Name                            | Size       | Languages   | :star:  | Released   | Notes   |
+| ------------------------------- | ---------- | ----------- | ------- | ---------- | ------- |
 {% for item in datasets %}| [{{ item.name }}]({{ item.link }}) | {{ item.size }} | {{ item.languages }} | {{ item.stars }} | {{ item.released }} | {{ item.notes }} |
 {% endfor %}
 
@@ -97,8 +97,8 @@ Datasets relevant for training models.
 
 Misc relevant useful tools.
 
-| Name                            | :star:  | Released   | Notes                                                         |
-| ------------------------------- | ------- | ---------- | -------                                                       |
+| Name                            | :star:  | Released   | Notes   |
+| ------------------------------- | ------- | ---------- | ------- |
 {% for item in misc %}| [{{ item.name }}]({{ item.link }}) | {{ item.stars }} | {{ item.released }} | {{ item.notes }} |
 {% endfor %}
 
