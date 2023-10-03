@@ -113,6 +113,7 @@ Models relevant for local Copilot-use. Ordered by most recent first.
 | [replit-glaive][replit-glaive]  | 3B         | 1?          | >70     | 2023-7     | Small model fine-tuned on high-quality data with impressive performance. |
 | [Starcoder][starcoder]          | 15B        | 80+         | >5k     | 2023-5     |                                                                          |
 | [replit-v1-3b][replit-v1]       | 3B         | 20+         | >600    | 2023-5     |                                                                          |
+| [SantaCoder][santacoder]        | 1.1B         | Python, Java, JavaScript  | >300     | 2023-4     | Tiny model selectively trained on 3 languages from "The Stack" |
 
 [codellama]: https://github.com/facebookresearch/codellama
 [starcoder]: https://github.com/bigcode-project/starcoder
@@ -121,8 +122,29 @@ Models relevant for local Copilot-use. Ordered by most recent first.
 [replit-v1]: https://huggingface.co/replit/replit-code-v1-3b
 [replit-glaive]: https://huggingface.co/sahil2801/replit-code-instruct-glaive
 [phind2]: https://huggingface.co/Phind/Phind-CodeLlama-34B-v2
+[santacoder]: https://huggingface.co/bigcode/santacoder
 
 **Note:** due to the pace of new model releases, this section is doomed to be out of date.
+
+## 📚 Datasets
+
+Datasets relevant for training models.
+
+| Name                            | Size                   | Languages   | :star:  | Released   | Notes                                                       |
+| ------------------------------- | ----------             | ----------- | ------- | ---------- | -------                                                     |
+| [The Stack][the-stack]          | 3TB (v1.0),<br> 6TB (v1.1) | 358         | >500    | 2022-10    | Excludes weak-copyleft licenses (MPL, LGPL, EGL) since v1.1 |
+
+[the-stack]: https://huggingface.co/datasets/bigcode/the-stack
+
+## Tools
+
+Misc relevant useful tools.
+
+| Name                            | :star:  | Released   | Notes                                                         |
+| ------------------------------- | ------- | ---------- | -------                                                       |
+| [ollama][ollama]                | >1k     | 2023-8-27  | Easily get up and running with large language models locally. |
+
+[ollama]: https://github.com/jmorganca/ollama
 
 ## 📰 Misc
 
