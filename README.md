@@ -57,7 +57,7 @@ Editor extensions used to complete code using LLMs:
 | [Tabby](https://github.com/TabbyML/tabby) | VSCode | 10850 | 2023-9-30 | Completes the cursor selection |
 | [turbopilot](https://github.com/ravenscroftj/turbopilot) | VSCode | 3839 | 2023-4-10 | Completions with FIM support, inspired by fauxpilot |
 | [HuggingFace-vscode](https://github.com/huggingface/huggingface-vscode) | VSCode | 745 | 2023-6-19 | Fork of Tabnine, supports Starcoder |
-| [localpilot](https://github.com/danielgross/localpilot) | VSCode | 428 | 2023-10-2 |  |
+| [localpilot](https://github.com/danielgross/localpilot) | VSCode | 428 | 2023-10-2 | Utility for easily hosting models locally, for use with official Copilot extension using custom API endpoint. |
 | [StarcoderEx](https://github.com/Lisoveliy/StarCoderEx) | VSCode | 79 | 2023-5-5 | Completes the cursor selection |
 | [WizardCoder-VSC](https://github.com/mzbac/wizardCoder-vsc) | VSCode | 107 | 2023-6-19 | PoC, article available |
 
