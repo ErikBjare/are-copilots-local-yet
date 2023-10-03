@@ -1,4 +1,4 @@
-<!-- 
+<!--
 
 Hey, you!
 Are you reading this in the generated README.md? Then you're in the wrong place!
@@ -19,7 +19,7 @@ Current trends and state of the art for using open & local LLM models as copilot
 
 ## 📋 Summary
 
-Local Copilots are in an early experimental stage, with most being of MVP-quality. 
+Local Copilots are in an early experimental stage, with most being of MVP-quality.
 
 The reasons for this are:
 
@@ -35,7 +35,7 @@ This document is a curated list of local Copilots, shell assistants, and related
 
 In 2021, GitHub released Copilot which quickly became popular among devs. Since then, with the flurry of AI developments around LLMs, local models that can run on consumer machines have become available, and it has seemed only a matter of time before Copilot will go local.
 
-Many perceived limitations of GitHub's Copilot are related to its closed and cloud-hosted nature. 
+Many perceived limitations of GitHub's Copilot are related to its closed and cloud-hosted nature.
 
 As an alternative, local Copilots enable:
 
@@ -65,7 +65,7 @@ Tools that try to generate projects/features from specification:
 
 ## 🗨️ Chat Interfaces
 
-Chat interfaces with shell/REPL/notebook access. 
+Chat interfaces with shell/REPL/notebook access.
 Similar to/inspired by ChatGPT's "Advanced Data Analysis" feature (previously "Code Interpreter").
 
 | Name                     | :star:  | Notes                                                                                                  |

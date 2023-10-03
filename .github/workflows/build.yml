@@ -21,6 +21,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Update stars
+        run: python update_stars.py
+
       - name: Generate README
         run: python generate_readme.py
 
@@ -28,6 +31,6 @@ jobs:
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'github-actions@example.com'
-          git add README.md
+          git add .
           git commit -m "chore: automatically generated README.md"
           git push origin master
