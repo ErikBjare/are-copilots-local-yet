@@ -200,7 +200,7 @@ models:
 
 datasets:
   - name: "The Stack"
-    size: "3TB (v1.0), 6TB (v1.1)"
+    size: "3TB/6TB"
     languages: "358"
     stars: ">500"
     released: "2022-10"
