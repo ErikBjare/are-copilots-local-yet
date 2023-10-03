@@ -48,7 +48,7 @@ extensions:
     editor: ["VSCode"]
     stars: ">140"
     released: "2023-10-2"
-    notes: ""
+    notes: "Utility for easily hosting models locally, for use with official Copilot extension using custom API endpoint."
     link: "https://github.com/danielgross/localpilot"
 
   - name: "StarcoderEx"
