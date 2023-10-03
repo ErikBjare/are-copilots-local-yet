@@ -79,4 +79,4 @@ def save_metadata(file_path: str, dest: str) -> None:
 
 
 if __name__ == "__main__":
-    save_metadata("data.yaml", "metadata.yaml")
+    save_metadata("data/data.yaml", "data/metadata.yaml")

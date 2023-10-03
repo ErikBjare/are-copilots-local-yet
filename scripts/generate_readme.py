@@ -5,10 +5,10 @@ from datetime import datetime, timedelta
 env = Environment(loader=FileSystemLoader("."))
 template = env.get_template("README.md.in")
 
-with open("data.yaml", "r") as f:
+with open("data/data.yaml", "r") as f:
     tables = yaml.safe_load(f)
 
-with open("metadata.yaml", "r") as f:
+with open("data/metadata.yaml", "r") as f:
     metadata = yaml.safe_load(f)
 
 # combine

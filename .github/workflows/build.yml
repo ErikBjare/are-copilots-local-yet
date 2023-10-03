@@ -21,11 +21,8 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Update stars
-        run: python update_stars.py
-
       - name: Generate README
-        run: python generate_readme.py
+        run: make
 
       - name: Commit and push changes
         run: |
