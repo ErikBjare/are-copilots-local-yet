@@ -1,0 +1,212 @@
+extensions:
+  - name: "GitHub Copilot"
+    editor: ["VSCode", "vim"]
+    stars: "Many"
+    released: "2021-6-29"
+    notes: "The GitHub Original, not local or open-source."
+    link: "https://github.com/github/copilot.vim"
+
+  - name: "Cursor"
+    editor: ["VSCode"]
+    stars: ">17k"
+    released: "2023-3-14"
+    notes: "Fork of VSCode, not open-source"
+    link: "https://github.com/getcursor/cursor"
+
+  - name: "Fauxpilot"
+    editor: ["VSCode"]
+    stars: ">12k"
+    released: "2022-9-3"
+    notes: "Early local PoC. Stale?"
+    link: "https://github.com/fauxpilot/fauxpilot"
+
+  - name: "Tabby"
+    editor: ["VSCode"]
+    stars: ">8k"
+    released: "2023-9-30"
+    notes: "Completes the cursor selection"
+    link: "https://github.com/TabbyML/tabby"
+
+  - name: "turbopilot"
+    editor: ["VSCode"]
+    stars: ">3k"
+    released: "2023-4-10"
+    notes: "Completions with FIM support, inspired by fauxpilot"
+    link: "https://github.com/ravenscroftj/turbopilot"
+
+  - name: "HuggingFace-vscode"
+    editor: ["VSCode"]
+    stars: ">300"
+    released: "2023-6-19"
+    notes: "Fork of Tabnine, supports Starcoder"
+    link: "https://github.com/huggingface/huggingface-vscode"
+
+  - name: "localpilot"
+    editor: ["VSCode"]
+    stars: ">140"
+    released: "2023-10-2"
+    notes: ""
+    link: "https://github.com/danielgross/localpilot"
+
+  - name: "StarcoderEx"
+    editor: ["VSCode"]
+    stars: ">60"
+    released: null
+    notes: "Completes the cursor selection"
+    link: "https://github.com/Lisoveliy/StarCoderEx"
+
+  - name: "WizardCoder-VSC"
+    editor: ["VSCode"]
+    stars: ">50"
+    released: null
+    notes: "PoC, article available"
+    link: "https://github.com/mzbac/wizardCoder-vsc"
+    article: "https://medium.com/@anchen.li/build-your-own-copliot-using-open-source-llm-ff9da556cb09"
+
+tools:
+  - name: "gpt-engineer"
+    stars: ">42k"
+    released: "2023-6-6"
+    notes: "Specify what you want it to build, the AI asks for clarification, and then builds it."
+    link: "https://github.com/AntonOsika/gpt-engineer"
+
+  - name: "gpt-pilot"
+    stars: ">4k"
+    released: "2023-7-18"
+    notes: "Very similar to gpt-engineer"
+    link: "https://github.com/Pythagora-io/gpt-pilot"
+
+  - name: "continue"
+    stars: ">4k"
+    released: "2023-5-24"
+    notes: "VSCode extension. Task-based autocomplete"
+    link: "https://github.com/continuedev/continue"
+
+  - name: "aider"
+    stars: ">3k"
+    released: "2023-6-8"
+    notes: "AI pair programming in your terminal, works well with pre-existing, larger codebases"
+    link: "https://github.com/paul-gauthier/aider"
+
+  - name: "rift"
+    stars: ">2k"
+    released: "2023-6-20"
+    notes: "VSCode extension. Lets you write code by chatting, makes your IDE agentic, AI engineer that works alongside you."
+    link: "https://github.com/morph-labs/rift"
+
+  - name: "mentat"
+    stars: ">1k"
+    released: "2023-7-25"
+    notes: "Mentat coordinates edits across multiple locations and files."
+    link: "https://github.com/biobootloader/mentat"
+
+  - name: "clippinator"
+    stars: ">200"
+    released: "2023-4-15"
+    notes: "Uses a team of agents to plan, write, debug, and test"
+    link: "https://github.com/ennucore/clippinator"
+
+
+chat:
+  - name: "open-interpreter"
+    stars: ">14k"
+    notes: "open-source, locally running implementation of OpenAI's Code Interpreter"
+    link: "https://github.com/KillianLucas/open-interpreter"
+
+  - name: "gptme"
+    stars: ">80"
+    notes: "Supporting open models. Developed by me, @ErikBjare"
+    link: "https://github.com/ErikBjare/gptme"
+
+  - name: "octogen"
+    stars: ">40"
+    notes: "Local Code Interpreter executing in Docker environment."
+    link: "https://github.com/dbpunk-labs/octogen"
+
+  - name: "terminal-x"
+    stars: ">30"
+    notes: "Very early prototype that converts natural language into shell commands, unmaintained since Sept. 2021"
+    link: "https://github.com/davidfant/terminal-x"
+
+
+models:
+  - name: "Phind CodeLlama v2"
+    size: "34B"
+    languages: "Many"
+    stars: ">400"
+    released: "2023-8-27"
+    notes: ""
+    link: "https://huggingface.co/Phind/Phind-CodeLlama-34B-v2"
+
+  - name: "WizardCoder-Python"
+    size: "7/13/34B"
+    languages: "Python"
+    stars: ">500"
+    released: "2023-8"
+    notes: ""
+    link: "https://huggingface.co/WizardLM/WizardCoder-Python-34B-V1.0"
+
+  - name: "CodeLlama"
+    size: "7/13/34B"
+    languages: "Many"
+    stars: ">2k"
+    released: "2023-8"
+    notes: ""
+    link: "https://github.com/facebookresearch/codellama"
+
+  - name: "WizardCoder"
+    size: "15B"
+    languages: "80+"
+    stars: ">390"
+    released: "2023-6"
+    notes: "Fine-tuning of Starcoder"
+    link: "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0"
+
+  - name: "replit-glaive"
+    size: "3B"
+    languages: "1?"
+    stars: ">70"
+    released: "2023-7"
+    notes: "Small model fine-tuned on high-quality data with impressive performance."
+    link: "https://huggingface.co/sahil2801/replit-code-instruct-glaive"
+
+  - name: "Starcoder"
+    size: "15B"
+    languages: "80+"
+    stars: ">5k"
+    released: "2023-5"
+    notes: ""
+    link: "https://github.com/bigcode-project/starcoder"
+
+  - name: "replit-v1-3b"
+    size: "3B"
+    languages: "20+"
+    stars: ">600"
+    released: "2023-5"
+    notes: ""
+    link: "https://huggingface.co/replit/replit-code-v1-3b"
+
+  - name: "SantaCoder"
+    size: "1.1B"
+    languages: "Python, Java, JavaScript"
+    stars: ">300"
+    released: "2023-4"
+    notes: "Tiny model selectively trained on 3 languages from 'The Stack'"
+    link: "https://huggingface.co/bigcode/santacoder"
+
+
+datasets:
+  - name: "The Stack"
+    size: "3TB (v1.0), 6TB (v1.1)"
+    languages: "358"
+    stars: ">500"
+    released: "2022-10"
+    notes: "Excludes weak-copyleft licenses (MPL, LGPL, EGL) since v1.1"
+    link: "https://huggingface.co/datasets/bigcode/the-stack"
+
+misc:
+  - name: "ollama"
+    stars: ">1k"
+    released: "2023-8-27"
+    notes: "Easily get up and running with large language models locally."
+    link: "https://github.com/jmorganca/ollama"
