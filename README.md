@@ -114,7 +114,7 @@ Datasets relevant for training models.
 
 | Name                            | Size       | Languages   | :star:  | Released   | Notes   |
 | ------------------------------- | ---------- | ----------- | ------- | ---------- | ------- |
-| [The Stack](https://huggingface.co/datasets/bigcode/the-stack) | 3TB (v1.0), 6TB (v1.1) | 358 | >500 | 2022-10 | Excludes weak-copyleft licenses (MPL, LGPL, EGL) since v1.1 |
+| [The Stack](https://huggingface.co/datasets/bigcode/the-stack) | 3TB/6TB | 358 | >500 | 2022-10 | Excludes weak-copyleft licenses (MPL, LGPL, EGL) since v1.1 |
 
 
 ## Tools
