@@ -54,14 +54,14 @@ extensions:
   - name: "StarcoderEx"
     editor: ["VSCode"]
     stars: ">60"
-    released: null
+    released: "2023-5-5"
     notes: "Completes the cursor selection"
     link: "https://github.com/Lisoveliy/StarCoderEx"
 
   - name: "WizardCoder-VSC"
     editor: ["VSCode"]
     stars: ">50"
-    released: null
+    released: "2023-6-19"
     notes: "PoC, article available"
     link: "https://github.com/mzbac/wizardCoder-vsc"
     article: "https://medium.com/@anchen.li/build-your-own-copliot-using-open-source-llm-ff9da556cb09"
