@@ -15,7 +15,7 @@ Current trends and state of the art for using open & local LLM models as copilot
 
 📝 *Help keep this list relevant and up-to-date by [making edits][edit]!*
 
-[edit]: https://github.com/ErikBjare/are-copilots-local-yet/edit/master/data.yaml
+[edit]: https://github.com/ErikBjare/are-copilots-local-yet/edit/master/data/data.yaml
 
 ## 📋 Summary
 
@@ -49,27 +49,27 @@ As an alternative, local Copilots enable:
 
 Editor extensions used to complete code using LLMs:
 
-| Name                            | Editor      | :star:  | Released  | Notes                                               |
-| -------------                   | --------    | ------- | --------  | ---------                                           |
+| Name          | Editor   | :star:  | Released | Notes     |
+| ------------- | -------- | ------- | -------- | --------- |
 | [GitHub Copilot](https://github.com/github/copilot.vim) | VSCode, vim | 6203 | 2021-6-29 | The GitHub Original, not local or open-source. |
-| [Cursor](https://github.com/getcursor/cursor) | VSCode | 17824 | 2023-3-14 | Fork of VSCode, not open-source |
-| [Fauxpilot](https://github.com/fauxpilot/fauxpilot) | VSCode | 13202 | 2022-9-3 | Early local PoC. Stale? |
-| [Tabby](https://github.com/TabbyML/tabby) | VSCode | 10848 | 2023-9-30 | Completes the cursor selection |
+| [Cursor](https://github.com/getcursor/cursor) | VSCode | 17825 | 2023-3-14 | Fork of VSCode, not open-source |
+| [Fauxpilot](https://github.com/fauxpilot/fauxpilot) | VSCode | 13203 | 2022-9-3 | Early local PoC. Stale? |
+| [Tabby](https://github.com/TabbyML/tabby) | VSCode | 10850 | 2023-9-30 | Completes the cursor selection |
 | [turbopilot](https://github.com/ravenscroftj/turbopilot) | VSCode | 3839 | 2023-4-10 | Completions with FIM support, inspired by fauxpilot |
 | [HuggingFace-vscode](https://github.com/huggingface/huggingface-vscode) | VSCode | 745 | 2023-6-19 | Fork of Tabnine, supports Starcoder |
-| [localpilot](https://github.com/danielgross/localpilot) | VSCode | 424 | 2023-10-2 |  |
-| [StarcoderEx](https://github.com/Lisoveliy/StarCoderEx) | VSCode | 79 | None | Completes the cursor selection |
-| [WizardCoder-VSC](https://github.com/mzbac/wizardCoder-vsc) | VSCode | 107 | None | PoC, article available |
+| [localpilot](https://github.com/danielgross/localpilot) | VSCode | 427 | 2023-10-2 |  |
+| [StarcoderEx](https://github.com/Lisoveliy/StarCoderEx) | VSCode | 79 |  | Completes the cursor selection |
+| [WizardCoder-VSC](https://github.com/mzbac/wizardCoder-vsc) | VSCode | 107 |  | PoC, article available |
 
 
 ## 🛠️ Tools
 
 Tools that try to generate projects/features from specification:
 
-| Name                         | :star:  | Released  | Notes                                                                                                                |
-| --------------               | ------- | --------- | -----                                                                                                                |
+| Name           | :star:  | Released  | Notes |
+| -------------- | ------- | --------- | ----- |
 | [gpt-engineer](https://github.com/AntonOsika/gpt-engineer) | 44257 | 2023-6-6 | Specify what you want it to build, the AI asks for clarification, and then builds it. |
-| [gpt-pilot](https://github.com/Pythagora-io/gpt-pilot) | 4598 | 2023-7-18 | Very similar to gpt-engineer |
+| [gpt-pilot](https://github.com/Pythagora-io/gpt-pilot) | 4599 | 2023-7-18 | Very similar to gpt-engineer |
 | [continue](https://github.com/continuedev/continue) | 4288 | 2023-5-24 | VSCode extension. Task-based autocomplete |
 | [aider](https://github.com/paul-gauthier/aider) | 3987 | 2023-6-8 | AI pair programming in your terminal, works well with pre-existing, larger codebases |
 | [rift](https://github.com/morph-labs/rift) | 2599 | 2023-6-20 | VSCode extension. Lets you write code by chatting, makes your IDE agentic, AI engineer that works alongside you. |
@@ -82,9 +82,9 @@ Tools that try to generate projects/features from specification:
 Chat interfaces with shell/REPL/notebook access.
 Similar to/inspired by ChatGPT's "Advanced Data Analysis" feature (previously "Code Interpreter").
 
-| Name                     | :star:  | Notes                                                                                                  |
-| --------------           | ------- | ---------                                                                                              |
-| [open-interpreter](https://github.com/KillianLucas/open-interpreter) | 27796 | open-source, locally running implementation of OpenAI's Code Interpreter |
+| Name           | :star:  | Notes     |
+| -------------- | ------- | --------- |
+| [open-interpreter](https://github.com/KillianLucas/open-interpreter) | 27802 | open-source, locally running implementation of OpenAI's Code Interpreter |
 | [gptme](https://github.com/ErikBjare/gptme) | 88 | Supporting open models. Developed by me, @ErikBjare |
 | [octogen](https://github.com/dbpunk-labs/octogen) | 109 | Local Code Interpreter executing in Docker environment. |
 | [terminal-x](https://github.com/davidfant/terminal-x) | 29 | Very early prototype that converts natural language into shell commands, unmaintained since Sept. 2021 |
@@ -94,8 +94,8 @@ Similar to/inspired by ChatGPT's "Advanced Data Analysis" feature (previously "C
 
 Models relevant for local Copilot-use. Ordered by most recent first.
 
-| Name                            | Size       | Languages   | :star:  | Released   | Notes                                                                    |
-| ------------------------------- | ---------- | ----------- | ------- | ---------- | -------                                                                  |
+| Name                            | Size       | Languages   | :star:  | Released   | Notes   |
+| ------------------------------- | ---------- | ----------- | ------- | ---------- | ------- |
 | [Phind CodeLlama v2](https://huggingface.co/Phind/Phind-CodeLlama-34B-v2) | 34B | Many | 332 | 2023-8-27 |  |
 | [WizardCoder-Python](https://huggingface.co/WizardLM/WizardCoder-Python-34B-V1.0) | 7/13/34B | Python | 597 | 2023-8 |  |
 | [CodeLlama](https://github.com/facebookresearch/codellama) | 7/13/34B | Many | 10166 | 2023-8 |  |
@@ -112,8 +112,8 @@ Models relevant for local Copilot-use. Ordered by most recent first.
 
 Datasets relevant for training models.
 
-| Name                            | Size                   | Languages   | :star:  | Released   | Notes                                                       |
-| ------------------------------- | ----------             | ----------- | ------- | ---------- | -------                                                     |
+| Name                            | Size       | Languages   | :star:  | Released   | Notes   |
+| ------------------------------- | ---------- | ----------- | ------- | ---------- | ------- |
 | [The Stack](https://huggingface.co/datasets/bigcode/the-stack) | 3TB (v1.0), 6TB (v1.1) | 358 | >500 | 2022-10 | Excludes weak-copyleft licenses (MPL, LGPL, EGL) since v1.1 |
 
 
@@ -121,9 +121,9 @@ Datasets relevant for training models.
 
 Misc relevant useful tools.
 
-| Name                            | :star:  | Released   | Notes                                                         |
-| ------------------------------- | ------- | ---------- | -------                                                       |
-| [ollama](https://github.com/jmorganca/ollama) | 8071 | 2023-8-27 | Easily get up and running with large language models locally. |
+| Name                            | :star:  | Released   | Notes   |
+| ------------------------------- | ------- | ---------- | ------- |
+| [ollama](https://github.com/jmorganca/ollama) | 8075 | 2023-8-27 | Easily get up and running with large language models locally. |
 
 
 ## 📰 Misc
