@@ -15,7 +15,7 @@ Current trends and state of the art for using open & local LLM models as copilot
 
 📝 *Help keep this list relevant and up-to-date by [making edits][edit]!*
 
-[edit]: https://github.com/ErikBjare/are-copilots-local-yet/edit/master/README.md
+[edit]: https://github.com/ErikBjare/are-copilots-local-yet/edit/master/data.yaml
 
 ## 📋 Summary
 
@@ -96,14 +96,14 @@ Models relevant for local Copilot-use. Ordered by most recent first.
 
 | Name                            | Size       | Languages   | :star:  | Released   | Notes                                                                    |
 | ------------------------------- | ---------- | ----------- | ------- | ---------- | -------                                                                  |
-| [Phind CodeLlama v2](https://huggingface.co/Phind/Phind-CodeLlama-34B-v2) | 34B | M, a, n, y | >400 | 2023-8-27 |  |
-| [WizardCoder-Python](https://huggingface.co/WizardLM/WizardCoder-Python-34B-V1.0) | 7/13/34B | P, y, t, h, o, n | >500 | 2023-8 |  |
-| [CodeLlama](https://github.com/facebookresearch/codellama) | 7/13/34B | M, a, n, y | >2k | 2023-8 |  |
-| [WizardCoder](https://huggingface.co/WizardLM/WizardCoder-15B-V1.0) | 15B | 8, 0, + | >390 | 2023-6 | Fine-tuning of Starcoder |
-| [replit-glaive](https://huggingface.co/sahil2801/replit-code-instruct-glaive) | 3B | 1, ? | >70 | 2023-7 | Small model fine-tuned on high-quality data with impressive performance. |
-| [Starcoder](https://github.com/bigcode-project/starcoder) | 15B | 8, 0, + | >5k | 2023-5 |  |
-| [replit-v1-3b](https://huggingface.co/replit/replit-code-v1-3b) | 3B | 2, 0, + | >600 | 2023-5 |  |
-| [SantaCoder](https://huggingface.co/bigcode/santacoder) | 1.1B | P, y, t, h, o, n, ,,  , J, a, v, a, ,,  , J, a, v, a, S, c, r, i, p, t | >300 | 2023-4 | Tiny model selectively trained on 3 languages from 'The Stack' |
+| [Phind CodeLlama v2](https://huggingface.co/Phind/Phind-CodeLlama-34B-v2) | 34B | Many | >400 | 2023-8-27 |  |
+| [WizardCoder-Python](https://huggingface.co/WizardLM/WizardCoder-Python-34B-V1.0) | 7/13/34B | Python | >500 | 2023-8 |  |
+| [CodeLlama](https://github.com/facebookresearch/codellama) | 7/13/34B | Many | >2k | 2023-8 |  |
+| [WizardCoder](https://huggingface.co/WizardLM/WizardCoder-15B-V1.0) | 15B | 80+ | >390 | 2023-6 | Fine-tuning of Starcoder |
+| [replit-glaive](https://huggingface.co/sahil2801/replit-code-instruct-glaive) | 3B | 1? | >70 | 2023-7 | Small model fine-tuned on high-quality data with impressive performance. |
+| [Starcoder](https://github.com/bigcode-project/starcoder) | 15B | 80+ | >5k | 2023-5 |  |
+| [replit-v1-3b](https://huggingface.co/replit/replit-code-v1-3b) | 3B | 20+ | >600 | 2023-5 |  |
+| [SantaCoder](https://huggingface.co/bigcode/santacoder) | 1.1B | Python, Java, JavaScript | >300 | 2023-4 | Tiny model selectively trained on 3 languages from 'The Stack' |
 
 
 **Note:** due to the pace of new model releases, this section is doomed to be out of date.
@@ -114,7 +114,7 @@ Datasets relevant for training models.
 
 | Name                            | Size                   | Languages   | :star:  | Released   | Notes                                                       |
 | ------------------------------- | ----------             | ----------- | ------- | ---------- | -------                                                     |
-| [The Stack](https://huggingface.co/datasets/bigcode/the-stack) | 3TB (v1.0), 6TB (v1.1) | 3, 5, 8 | >500 | 2022-10 | Excludes weak-copyleft licenses (MPL, LGPL, EGL) since v1.1 |
+| [The Stack](https://huggingface.co/datasets/bigcode/the-stack) | 3TB (v1.0), 6TB (v1.1) | 358 | >500 | 2022-10 | Excludes weak-copyleft licenses (MPL, LGPL, EGL) since v1.1 |
 
 
 ## Tools
