@@ -56,10 +56,10 @@ def save_metadata(file_path: str, dest: str) -> None:
         except Exception as e:
             print(f"  Error: {e}")
 
-    always_update = True
-    max_days = 2
+    always_update = False
+    max_days = 1
 
-    # Update the existing entries, if it's been more than 3 days:
+    # Update the existing entries, if it's been more than max_days
     for link in metamap:
         d = datetime.fromisoformat(metamap[link]["updated"])
         if always_update or (datetime.now() - d).days > max_days:
