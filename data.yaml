@@ -1,3 +1,6 @@
+# This file contains all the tools presented in the README.
+# Add a tool to the appropriate section, then the CI will rebuild the README.
+
 extensions:
   - name: "GitHub Copilot"
     editor: ["VSCode", "vim"]

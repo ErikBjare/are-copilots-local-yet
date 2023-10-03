@@ -15,7 +15,7 @@ Current trends and state of the art for using open & local LLM models as copilot
 
 📝 *Help keep this list relevant and up-to-date by [making edits][edit]!*
 
-[edit]: https://github.com/ErikBjare/are-copilots-local-yet/edit/master/README.md
+[edit]: https://github.com/ErikBjare/are-copilots-local-yet/edit/master/data.yaml
 
 ## 📋 Summary
 
@@ -79,7 +79,7 @@ Models relevant for local Copilot-use. Ordered by most recent first.
 
 | Name                            | Size       | Languages   | :star:  | Released   | Notes                                                                    |
 | ------------------------------- | ---------- | ----------- | ------- | ---------- | -------                                                                  |
-{% for item in models %}| [{{ item.name }}]({{ item.link }}) | {{ item.size }} | {{ item.languages | join(", ") }} | {{ item.stars }} | {{ item.released }} | {{ item.notes }} |
+{% for item in models %}| [{{ item.name }}]({{ item.link }}) | {{ item.size }} | {{ item.languages }} | {{ item.stars }} | {{ item.released }} | {{ item.notes }} |
 {% endfor %}
 
 **Note:** due to the pace of new model releases, this section is doomed to be out of date.
@@ -90,7 +90,7 @@ Datasets relevant for training models.
 
 | Name                            | Size                   | Languages   | :star:  | Released   | Notes                                                       |
 | ------------------------------- | ----------             | ----------- | ------- | ---------- | -------                                                     |
-{% for item in datasets %}| [{{ item.name }}]({{ item.link }}) | {{ item.size }} | {{ item.languages | join(", ") }} | {{ item.stars }} | {{ item.released }} | {{ item.notes }} |
+{% for item in datasets %}| [{{ item.name }}]({{ item.link }}) | {{ item.size }} | {{ item.languages }} | {{ item.stars }} | {{ item.released }} | {{ item.notes }} |
 {% endfor %}
 
 ## Tools
