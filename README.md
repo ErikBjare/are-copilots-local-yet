@@ -57,9 +57,9 @@ Editor extensions used to complete code using LLMs:
 | [Tabby](https://github.com/TabbyML/tabby) | VSCode | 10850 | 2023-9-30 | Completes the cursor selection |
 | [turbopilot](https://github.com/ravenscroftj/turbopilot) | VSCode | 3839 | 2023-4-10 | Completions with FIM support, inspired by fauxpilot |
 | [HuggingFace-vscode](https://github.com/huggingface/huggingface-vscode) | VSCode | 745 | 2023-6-19 | Fork of Tabnine, supports Starcoder |
-| [localpilot](https://github.com/danielgross/localpilot) | VSCode | 427 | 2023-10-2 |  |
-| [StarcoderEx](https://github.com/Lisoveliy/StarCoderEx) | VSCode | 79 |  | Completes the cursor selection |
-| [WizardCoder-VSC](https://github.com/mzbac/wizardCoder-vsc) | VSCode | 107 |  | PoC, article available |
+| [localpilot](https://github.com/danielgross/localpilot) | VSCode | 428 | 2023-10-2 |  |
+| [StarcoderEx](https://github.com/Lisoveliy/StarCoderEx) | VSCode | 79 | 2023-5-5 | Completes the cursor selection |
+| [WizardCoder-VSC](https://github.com/mzbac/wizardCoder-vsc) | VSCode | 107 | 2023-6-19 | PoC, article available |
 
 
 ## 🛠️ Tools
@@ -68,7 +68,7 @@ Tools that try to generate projects/features from specification:
 
 | Name           | :star:  | Released  | Notes |
 | -------------- | ------- | --------- | ----- |
-| [gpt-engineer](https://github.com/AntonOsika/gpt-engineer) | 44257 | 2023-6-6 | Specify what you want it to build, the AI asks for clarification, and then builds it. |
+| [gpt-engineer](https://github.com/AntonOsika/gpt-engineer) | 44258 | 2023-6-6 | Specify what you want it to build, the AI asks for clarification, and then builds it. |
 | [gpt-pilot](https://github.com/Pythagora-io/gpt-pilot) | 4599 | 2023-7-18 | Very similar to gpt-engineer |
 | [continue](https://github.com/continuedev/continue) | 4288 | 2023-5-24 | VSCode extension. Task-based autocomplete |
 | [aider](https://github.com/paul-gauthier/aider) | 3987 | 2023-6-8 | AI pair programming in your terminal, works well with pre-existing, larger codebases |
