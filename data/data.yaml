@@ -66,6 +66,12 @@ extensions:
     link: "https://github.com/mzbac/wizardCoder-vsc"
     article: "https://medium.com/@anchen.li/build-your-own-copliot-using-open-source-llm-ff9da556cb09"
 
+ - name: "KoboldAIConnect"
+   editor: ["VSCode"]
+   released: "2023-10-7"
+   link: "https://github.com/Phiality-dot/KoboldAIConnect-VSCODE/"
+   notes: "Copilot clone using local KoboldAI backend"
+
 tools:
   - name: "gpt-engineer"
     stars: ">42k"
