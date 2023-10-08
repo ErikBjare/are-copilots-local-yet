@@ -72,6 +72,12 @@ extensions:
     link: "https://github.com/Phiality-dot/KoboldAIConnect-VSCODE/"
     notes: "Copilot clone using local KoboldAI backend"
 
+  - name: "gen.nvim"
+    editor: ["vim"]
+    released: "2023-10-1"
+    link: "https://github.com/David-Kunz/gen.nvim"
+    notes: "Edit selection using custom prompts"
+
 tools:
   - name: "gpt-engineer"
     stars: ">42k"
