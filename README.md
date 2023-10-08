@@ -61,6 +61,7 @@ Editor extensions used to complete code using LLMs:
 | [StarcoderEx](https://github.com/Lisoveliy/StarCoderEx) | VSCode | 79 | 2023-5-5 | Completes the cursor selection |
 | [WizardCoder-VSC](https://github.com/mzbac/wizardCoder-vsc) | VSCode | 108 | 2023-6-19 | PoC, article available |
 | [KoboldAIConnect](https://github.com/Phiality-dot/KoboldAIConnect-VSCODE/) | VSCode |  | 2023-10-7 | Copilot clone using local KoboldAI backend |
+| [gen.nvim](https://github.com/David-Kunz/gen.nvim) | vim | 79 | 2023-10-1 | Edit selection using custom prompts |
 
 
 ## 🛠️ Tools
