@@ -121,6 +121,11 @@ tools:
     notes: "Uses a team of agents to plan, write, debug, and test"
     link: "https://github.com/ennucore/clippinator"
 
+  - name: "Refact.AI"
+    stars: "1k"
+    released: "2023-10-06"
+    notes: "Full self-hostable code completion, chat and training service, complete with VSCode extension."
+    link: https://refact.ai
 
 chat:
   - name: "open-interpreter"
