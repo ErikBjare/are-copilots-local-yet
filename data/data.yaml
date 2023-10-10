@@ -125,7 +125,7 @@ tools:
     stars: "1k"
     released: "2023-10-06"
     notes: "Full self-hostable code completion, chat and training service, complete with VSCode extension."
-    link: https://refact.ai
+    link: "https://github.com/smallcloudai/refact"
 
 chat:
   - name: "open-interpreter"
