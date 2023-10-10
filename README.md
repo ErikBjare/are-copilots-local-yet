@@ -77,6 +77,7 @@ Tools that try to generate projects/features from specification:
 | [rift](https://github.com/morph-labs/rift) | 2667 | 2023-6-20 | VSCode extension. Lets you write code by chatting, makes your IDE agentic, AI engineer that works alongside you. |
 | [mentat](https://github.com/biobootloader/mentat) | 1649 | 2023-7-25 | Mentat coordinates edits across multiple locations and files. |
 | [clippinator](https://github.com/ennucore/clippinator) | 248 | 2023-4-15 | Uses a team of agents to plan, write, debug, and test |
+| [Refact.AI](https://github.com/smallcloudai/refact) | 988 | 2023-10-06 | Full self-hostable code completion, chat and training service, complete with VSCode extension. |
 
 
 ## 🗨️ Chat Interfaces
