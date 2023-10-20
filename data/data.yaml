@@ -24,7 +24,7 @@ extensions:
     link: "https://github.com/fauxpilot/fauxpilot"
 
   - name: "Tabby"
-    editor: ["VSCode"]
+    editor: ["VSCode", "vim", "IntelliJ"]
     stars: ">8k"
     released: "2023-9-30"
     notes: "Completes the cursor selection"
