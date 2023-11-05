@@ -17,6 +17,19 @@ Current trends and state of the art for using open & local LLM models as copilot
 
 [edit]: https://github.com/ErikBjare/are-copilots-local-yet/edit/master/data/data.yaml
 
+## Table of Contents
+
+- [Summary](#-summary)
+- [Background](#-background)
+- [Editor Extensions](#-editor-extensions)
+- [Tools](#-tools)
+- [Chat Interfaces](#-chat-interfaces)
+- [Models](#-models)
+- [Datasets](#-datasets)
+- [Misc Tools](#-misc-tools)
+- [History](#-history)
+- [Stats](#-stats)
+
 ## 📋 Summary
 
 Local Copilots are in an early experimental stage, with most being of MVP-quality.
@@ -45,7 +58,7 @@ As an alternative, local Copilots enable:
 - 🎯 The ability to run models specialized for a particular language/task
 - 🔒 [Constraining the LLM output](https://twitter.com/ErikBjare/status/1656731582001020928) to fit a particular format/syntax.
 
-## 🧩 Extensions
+## 🧩 Editor Extensions
 
 Editor extensions used to complete code using LLMs:
 
@@ -102,7 +115,7 @@ Misc relevant useful tools.
 {% for item in misc %}| [{{ item.name }}]({{ item.link }}) | {{ item.stars }} | {{ item.released }} | {{ item.notes }} |
 {% endfor %}
 
-## 📰 Misc
+## 📰 History
 
 - 🐦 [Tweet announcing this repo][announce]
 
