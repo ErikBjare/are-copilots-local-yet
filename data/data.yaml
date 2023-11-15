@@ -79,7 +79,7 @@ extensions:
     notes: "Edit selection using custom prompts"
 
   - name: "uniteai"
-    editor: ["VSCode", "emacs", "lsp"] 
+    editor: ["VSCode", "emacs", "lsp"]
     released: "2023-8-27"
     link: "https://github.com/freckletonj/uniteai"
 
@@ -131,6 +131,12 @@ tools:
     released: "2023-10-06"
     notes: "Full self-hostable code completion, chat and training service, complete with VSCode extension."
     link: "https://github.com/smallcloudai/refact"
+
+  - name: "LocalCompletion"
+    editor: ["VSCode"]
+    released: "2023-11-15"
+    link: "https://github.com/lufixSch/LocalCompletion"
+    notes: "Inline completion with support for any OpenAI compatible backend"
 
 chat:
   - name: "open-interpreter"
