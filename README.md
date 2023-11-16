@@ -106,7 +106,7 @@ Similar to/inspired by ChatGPT's "Advanced Data Analysis" feature (previously "C
 | [gptme](https://github.com/ErikBjare/gptme) | 121 | Supporting open models. Developed by me, @ErikBjare |
 | [octogen](https://github.com/dbpunk-labs/octogen) | 218 | Local Code Interpreter executing in Docker environment. |
 | [terminal-x](https://github.com/davidfant/terminal-x) | 30 | Very early prototype that converts natural language into shell commands, unmaintained since Sept. 2021 |
-| [DODA](https://github.com/davidfant/terminal-x) | 30 | Electron based GUI for a local OpenAI Dev Assistant  |
+| [DODA](https://github.com/agentcasa/doda) | 57 | Electron based GUI for a local OpenAI Dev Assistant  |
 
 
 ## 🤖 Models
