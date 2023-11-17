@@ -159,6 +159,10 @@ chat:
     notes: "Very early prototype that converts natural language into shell commands, unmaintained since Sept. 2021"
     link: "https://github.com/davidfant/terminal-x"
 
+  - name: "DODA"
+    stars: ">50"
+    notes: "Electron based GUI for a local OpenAI Dev Assistant"
+    link: "https://github.com/agentcasa/doda"
 
 models:
   - name: "Phind CodeLlama v2"
