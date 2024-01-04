@@ -83,6 +83,12 @@ extensions:
     released: "2023-8-27"
     link: "https://github.com/freckletonj/uniteai"
 
+  - name: "wingman"
+    editor: ["VSCode"]
+    released: "2023-12-06"
+    link: "https://github.com/nvms/wingman"
+    notes: "Prompts. Presets. Modes."
+
 tools:
   - name: "gpt-engineer"
     stars: ">42k"
