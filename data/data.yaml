@@ -37,6 +37,13 @@ extensions:
     notes: "Completions with FIM support, inspired by fauxpilot"
     link: "https://github.com/ravenscroftj/turbopilot"
 
+  - name: "Llama Coder"
+    editor: ["VSCode"]
+    stars: ">450"
+    released: "2023-11-21"
+    notes: "Uses Ollama"
+    link: "https://github.com/ex3ndr/llama-coder"
+
   - name: "HuggingFace-vscode"
     editor: ["VSCode"]
     stars: ">300"
