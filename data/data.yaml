@@ -83,6 +83,12 @@ extensions:
     released: "2023-8-27"
     link: "https://github.com/freckletonj/uniteai"
 
+  - name: "Privy"
+    editor: ["VSCode"]
+    released: "2024-1-8"
+    link: "https://github.com/srikanth235/privy"
+    notes: "A privacy-first coding assistant." 
+
 tools:
   - name: "gpt-engineer"
     stars: ">42k"
