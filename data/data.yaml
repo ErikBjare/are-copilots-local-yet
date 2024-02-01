@@ -89,6 +89,12 @@ extensions:
     link: "https://github.com/srikanth235/privy"
     notes: "A privacy-first coding assistant." 
 
+  - name: "twinny"
+    editor: ["VSCode"]
+    released: "2024-1-24"
+    link: "https://github.com/rjmacarthy/twinny"
+    notes: "The most no-nonsense locally hosted AI code completion plugin for VS Code" 
+
 tools:
   - name: "gpt-engineer"
     stars: ">42k"
