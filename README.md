@@ -68,6 +68,7 @@ Editor extensions used to complete code using LLMs:
 | [Cursor](https://github.com/getcursor/cursor) | VSCode | 19194 | 2023-3-14 | Fork of VSCode, not open-source |
 | [Fauxpilot](https://github.com/fauxpilot/fauxpilot) | VSCode | 13893 | 2022-9-3 | Early local PoC. Stale? |
 | [Tabby](https://github.com/TabbyML/tabby) | VSCode, vim, IntelliJ | 15408 | 2023-9-30 | Completes the cursor selection |
+| [Continue](https://github.com/continuedev/continue) | 6740 | 2023-5-24 | VSCode & JetBrains extension. Tab-autocomplete and task-based autocomplete |
 | [turbopilot](https://github.com/ravenscroftj/turbopilot) | VSCode | 3837 | 2023-4-10 | Completions with FIM support, inspired by fauxpilot |
 | [HuggingFace-vscode](https://github.com/huggingface/huggingface-vscode) | VSCode | 962 | 2023-6-19 | Fork of Tabnine, supports Starcoder |
 | [localpilot](https://github.com/danielgross/localpilot) | VSCode | 3171 | 2023-10-2 | Utility for easily hosting models locally, for use with official Copilot extension using custom API endpoint. |
@@ -88,7 +89,6 @@ Tools that try to generate projects/features from specification:
 | -------------- | ------- | --------- | ----- |
 | [gpt-engineer](https://github.com/AntonOsika/gpt-engineer) | 48806 | 2023-6-6 | Specify what you want it to build, the AI asks for clarification, and then builds it. |
 | [gpt-pilot](https://github.com/Pythagora-io/gpt-pilot) | 21214 | 2023-7-18 | Very similar to gpt-engineer |
-| [continue](https://github.com/continuedev/continue) | 6571 | 2023-5-24 | VSCode extension. Task-based autocomplete |
 | [aider](https://github.com/paul-gauthier/aider) | 6212 | 2023-6-8 | AI pair programming in your terminal, works well with pre-existing, larger codebases |
 | [rift](https://github.com/morph-labs/rift) | 2940 | 2023-6-20 | VSCode extension. Lets you write code by chatting, makes your IDE agentic, AI engineer that works alongside you. |
 | [mentat](https://github.com/biobootloader/mentat) | 2087 | 2023-7-25 | Mentat coordinates edits across multiple locations and files. |
