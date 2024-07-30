@@ -64,20 +64,20 @@ Editor extensions used to complete code using LLMs:
 
 | Name          | Editor   | :star:  | Released | Notes     |
 | ------------- | -------- | ------- | -------- | --------- |
-| [GitHub Copilot](https://github.com/github/copilot.vim) | VSCode, vim | 6974 | 2021-6-29 | The GitHub Original, not local or open-source. |
-| [Cursor](https://github.com/getcursor/cursor) | VSCode | 19194 | 2023-3-14 | Fork of VSCode, not open-source |
-| [Fauxpilot](https://github.com/fauxpilot/fauxpilot) | VSCode | 13893 | 2022-9-3 | Early local PoC. Stale? |
-| [Tabby](https://github.com/TabbyML/tabby) | VSCode, vim, IntelliJ | 15408 | 2023-9-30 | Completes the cursor selection |
-| [turbopilot](https://github.com/ravenscroftj/turbopilot) | VSCode | 3837 | 2023-4-10 | Completions with FIM support, inspired by fauxpilot |
-| [HuggingFace-vscode](https://github.com/huggingface/huggingface-vscode) | VSCode | 962 | 2023-6-19 | Fork of Tabnine, supports Starcoder |
-| [localpilot](https://github.com/danielgross/localpilot) | VSCode | 3171 | 2023-10-2 | Utility for easily hosting models locally, for use with official Copilot extension using custom API endpoint. |
-| [StarcoderEx](https://github.com/Lisoveliy/StarCoderEx) | VSCode | 97 | 2023-5-5 | Completes the cursor selection |
-| [WizardCoder-VSC](https://github.com/mzbac/wizardCoder-vsc) | VSCode | 131 | 2023-6-19 | PoC, article available |
+| [GitHub Copilot](https://github.com/github/copilot.vim) | VSCode, vim | 8076 | 2021-6-29 | The GitHub Original, not local or open-source. |
+| [Cursor](https://github.com/getcursor/cursor) | VSCode | 20730 | 2023-3-14 | Fork of VSCode, not open-source |
+| [Fauxpilot](https://github.com/fauxpilot/fauxpilot) | VSCode | 14464 | 2022-9-3 | Early local PoC. Stale? |
+| [Tabby](https://github.com/TabbyML/tabby) | VSCode, vim, IntelliJ | 20170 | 2023-9-30 | Completes the cursor selection |
+| [turbopilot](https://github.com/ravenscroftj/turbopilot) | VSCode | 3835 | 2023-4-10 | Completions with FIM support, inspired by fauxpilot |
+| [HuggingFace-vscode](https://github.com/huggingface/huggingface-vscode) | VSCode | 1184 | 2023-6-19 | Fork of Tabnine, supports Starcoder |
+| [localpilot](https://github.com/danielgross/localpilot) | VSCode | 3328 | 2023-10-2 | Utility for easily hosting models locally, for use with official Copilot extension using custom API endpoint. |
+| [StarcoderEx](https://github.com/Lisoveliy/StarCoderEx) | VSCode | 100 | 2023-5-5 | Completes the cursor selection |
+| [WizardCoder-VSC](https://github.com/mzbac/wizardCoder-vsc) | VSCode | 142 | 2023-6-19 | PoC, article available |
 | [KoboldAIConnect](https://github.com/Phiality-dot/KoboldAIConnect-VSCODE/) | VSCode |  | 2023-10-7 | Copilot clone using local KoboldAI backend |
-| [gen.nvim](https://github.com/David-Kunz/gen.nvim) | vim | 553 | 2023-10-1 | Edit selection using custom prompts |
-| [uniteai](https://github.com/freckletonj/uniteai) | VSCode, emacs, lsp | 202 | 2023-8-27 |  |
-| [Privy](https://github.com/srikanth235/privy) | VSCode | 638 | 2024-1-8 | A privacy-first coding assistant. |
-| [twinny](https://github.com/rjmacarthy/twinny) | VSCode | 400 | 2024-1-24 | The most no-nonsense locally hosted AI code completion plugin for VS Code |
+| [gen.nvim](https://github.com/David-Kunz/gen.nvim) | vim | 1017 | 2023-10-1 | Edit selection using custom prompts |
+| [uniteai](https://github.com/freckletonj/uniteai) | VSCode, emacs, lsp | 240 | 2023-8-27 |  |
+| [Privy](https://github.com/srikanth235/privy) | VSCode | 825 | 2024-1-8 | A privacy-first coding assistant. |
+| [twinny](https://github.com/rjmacarthy/twinny) | VSCode | 2386 | 2024-1-24 | The most no-nonsense locally hosted AI code completion plugin for VS Code |
 
 
 ## 🛠️ Tools
@@ -86,15 +86,15 @@ Tools that try to generate projects/features from specification:
 
 | Name           | :star:  | Released  | Notes |
 | -------------- | ------- | --------- | ----- |
-| [gpt-engineer](https://github.com/AntonOsika/gpt-engineer) | 48806 | 2023-6-6 | Specify what you want it to build, the AI asks for clarification, and then builds it. |
-| [gpt-pilot](https://github.com/Pythagora-io/gpt-pilot) | 21214 | 2023-7-18 | Very similar to gpt-engineer |
-| [continue](https://github.com/continuedev/continue) | 6571 | 2023-5-24 | VSCode extension. Task-based autocomplete |
-| [aider](https://github.com/paul-gauthier/aider) | 6212 | 2023-6-8 | AI pair programming in your terminal, works well with pre-existing, larger codebases |
-| [rift](https://github.com/morph-labs/rift) | 2940 | 2023-6-20 | VSCode extension. Lets you write code by chatting, makes your IDE agentic, AI engineer that works alongside you. |
-| [mentat](https://github.com/biobootloader/mentat) | 2087 | 2023-7-25 | Mentat coordinates edits across multiple locations and files. |
-| [clippinator](https://github.com/ennucore/clippinator) | 274 | 2023-4-15 | Uses a team of agents to plan, write, debug, and test |
-| [Refact.AI](https://github.com/smallcloudai/refact) | 1256 | 2023-10-06 | Full self-hostable code completion, chat and training service, complete with VSCode extension. |
-| [LocalCompletion](https://github.com/lufixSch/LocalCompletion) | 15 | 2023-11-15 | Inline completion with support for any OpenAI compatible backend |
+| [gpt-engineer](https://github.com/AntonOsika/gpt-engineer) | 51527 | 2023-6-6 | Specify what you want it to build, the AI asks for clarification, and then builds it. |
+| [gpt-pilot](https://github.com/Pythagora-io/gpt-pilot) | 29228 | 2023-7-18 | Very similar to gpt-engineer |
+| [continue](https://github.com/continuedev/continue) | 13883 | 2023-5-24 | VSCode extension. Task-based autocomplete |
+| [aider](https://github.com/paul-gauthier/aider) | 14883 | 2023-6-8 | AI pair programming in your terminal, works well with pre-existing, larger codebases |
+| [rift](https://github.com/morph-labs/rift) | 3051 | 2023-6-20 | VSCode extension. Lets you write code by chatting, makes your IDE agentic, AI engineer that works alongside you. |
+| [mentat](https://github.com/biobootloader/mentat) | 2441 | 2023-7-25 | Mentat coordinates edits across multiple locations and files. |
+| [clippinator](https://github.com/ennucore/clippinator) | 309 | 2023-4-15 | Uses a team of agents to plan, write, debug, and test |
+| [Refact.AI](https://github.com/smallcloudai/refact) | 1513 | 2023-10-06 | Full self-hostable code completion, chat and training service, complete with VSCode extension. |
+| [LocalCompletion](https://github.com/lufixSch/LocalCompletion) | 25 | 2023-11-15 | Inline completion with support for any OpenAI compatible backend |
 
 
 ## 🗨️ Chat Interfaces
@@ -104,11 +104,11 @@ Similar to/inspired by ChatGPT's "Advanced Data Analysis" feature (previously "C
 
 | Name           | :star:  | Notes     |
 | -------------- | ------- | --------- |
-| [open-interpreter](https://github.com/KillianLucas/open-interpreter) | 39743 | open-source, locally running implementation of OpenAI's Code Interpreter |
-| [gptme](https://github.com/ErikBjare/gptme) | 175 | Supporting open models. Developed by me, @ErikBjare |
-| [octogen](https://github.com/dbpunk-labs/octogen) | 233 | Local Code Interpreter executing in Docker environment. |
-| [terminal-x](https://github.com/davidfant/terminal-x) | 30 | Very early prototype that converts natural language into shell commands, unmaintained since Sept. 2021 |
-| [DODA](https://github.com/agentcasa/doda) | 129 | Electron based GUI for a local OpenAI Dev Assistant |
+| [open-interpreter](https://github.com/KillianLucas/open-interpreter) | 51204 | open-source, locally running implementation of OpenAI's Code Interpreter |
+| [gptme](https://github.com/ErikBjare/gptme) | 247 | Supporting open models. Developed by me, @ErikBjare |
+| [octogen](https://github.com/dbpunk-labs/octogen) | 249 | Local Code Interpreter executing in Docker environment. |
+| [terminal-x](https://github.com/davidfant/terminal-x) | 32 | Very early prototype that converts natural language into shell commands, unmaintained since Sept. 2021 |
+| [DODA](https://github.com/agentcasa/doda) | >50 | Electron based GUI for a local OpenAI Dev Assistant |
 
 
 ## 🤖 Models
@@ -117,14 +117,14 @@ Models relevant for local Copilot-use. Ordered by most recent first.
 
 | Name                            | Size       | Languages   | :star:  | Released   | Notes   |
 | ------------------------------- | ---------- | ----------- | ------- | ---------- | ------- |
-| [Phind CodeLlama v2](https://huggingface.co/Phind/Phind-CodeLlama-34B-v2) | 34B | Many | 669 | 2023-8-27 |  |
-| [WizardCoder-Python](https://huggingface.co/WizardLM/WizardCoder-Python-34B-V1.0) | 7/13/34B | Python | 718 | 2023-8 |  |
-| [CodeLlama](https://github.com/facebookresearch/codellama) | 7/13/34B | Many | 12825 | 2023-8 |  |
-| [WizardCoder](https://huggingface.co/WizardLM/WizardCoder-15B-V1.0) | 15B | 80+ | 712 | 2023-6 | Fine-tuning of Starcoder |
-| [replit-glaive](https://huggingface.co/sahil2801/replit-code-instruct-glaive) | 3B | 1? | 87 | 2023-7 | Small model fine-tuned on high-quality data with impressive performance. |
-| [Starcoder](https://github.com/bigcode-project/starcoder) | 15B | 80+ | 6827 | 2023-5 |  |
-| [replit-v1-3b](https://huggingface.co/replit/replit-code-v1-3b) | 3B | 20+ | 708 | 2023-5 |  |
-| [SantaCoder](https://huggingface.co/bigcode/santacoder) | 1.1B | Python, Java, JavaScript | 316 | 2023-4 | Tiny model selectively trained on 3 languages from 'The Stack' |
+| [Phind CodeLlama v2](https://huggingface.co/Phind/Phind-CodeLlama-34B-v2) | 34B | Many | 810 | 2023-8-27 |  |
+| [WizardCoder-Python](https://huggingface.co/WizardLM/WizardCoder-Python-34B-V1.0) | 7/13/34B | Python | 753 | 2023-8 |  |
+| [CodeLlama](https://github.com/facebookresearch/codellama) | 7/13/34B | Many | 15705 | 2023-8 |  |
+| [WizardCoder](https://huggingface.co/WizardLM/WizardCoder-15B-V1.0) | 15B | 80+ | 741 | 2023-6 | Fine-tuning of Starcoder |
+| [replit-glaive](https://huggingface.co/sahil2801/replit-code-instruct-glaive) | 3B | 1? | 88 | 2023-7 | Small model fine-tuned on high-quality data with impressive performance. |
+| [Starcoder](https://github.com/bigcode-project/starcoder) | 15B | 80+ | 7219 | 2023-5 |  |
+| [replit-v1-3b](https://huggingface.co/replit/replit-code-v1-3b) | 3B | 20+ | 717 | 2023-5 |  |
+| [SantaCoder](https://huggingface.co/bigcode/santacoder) | 1.1B | Python, Java, JavaScript | 325 | 2023-4 | Tiny model selectively trained on 3 languages from 'The Stack' |
 
 
 **Note:** due to the pace of new model releases, this section is doomed to be out of date.
@@ -144,7 +144,7 @@ Misc relevant useful tools.
 
 | Name                            | :star:  | Released   | Notes   |
 | ------------------------------- | ------- | ---------- | ------- |
-| [ollama](https://github.com/jmorganca/ollama) | 34524 | 2023-8-27 | Easily get up and running with large language models locally. |
+| [ollama](https://github.com/jmorganca/ollama) | 82233 | 2023-8-27 | Easily get up and running with large language models locally. |
 
 
 ## 📰 History
