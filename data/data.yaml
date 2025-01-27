@@ -249,6 +249,14 @@ models:
     notes: ""
     link: "https://github.com/QwenLM/Qwen2.5-Coder"
 
+  - name: "Deepseek R1"
+    size: "671B"
+    languages: "Many"
+    stars: ">1k"
+    released: "2025-01"
+    notes: ""
+    link: "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+
 
 
 datasets:
