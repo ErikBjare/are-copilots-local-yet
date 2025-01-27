@@ -27,20 +27,13 @@ Current trends and state of the art for using open & local LLM models as copilot
 - [Models](#-models)
 - [Datasets](#-datasets)
 - [Misc Tools](#-misc-tools)
+- [Suggested Setup](#-suggested-setup)
 - [History](#-history)
 - [Stats](#-stats)
 
 ## 📋 Summary
 
-Local Copilots are in an early experimental stage, with most being of MVP-quality.
-
-The reasons for this are:
-
-- 📉 Local models still being inferior to Copilot
-- 🔧 Difficult to set up
-- 💻 High hardware requirements
-
-However, as models improve, and editor extensions get developed to use them, we're expected to get a renaissance of code-completion tools.
+Local Copilots are now fully functional, although with output quality still not on par with those offered by cloud-based services like GitHub Copilot.
 
 This document is a curated list of local Copilots, shell assistants, and related projects. It is intended to be a resource for those interested in a survey of the existing tools, and to help developers discover the state of the art for projects like these.
 
@@ -148,6 +141,33 @@ Misc relevant useful tools.
 | ------------------------------- | ------- | ---------- | ------- |
 | [ollama](https://github.com/jmorganca/ollama) | 111009 | 2023-8-27 | Easily get up and running with large language models locally. |
 
+
+## Suggested setup
+
+As you can see above there are many options for models and editor extensions. If you use VS Code or JetBrains and want to get started straight away you can use the following setup:
+
+1. Install [LM Studio](https://lmstudio.ai/).
+2. Install [Continue.dev](https://www.continue.dev/) extension.
+3. Download one or several models in LM Studio. As of January 2025, Qwen 2.5 Coder is a good choice for autocomplete and Deepseek R1 is a good choice for chat. Depending on your hardware you'll have to experiment with which model size and quantization level gives you sufficient speed. For example on a Macbook Pro M2 with 32GB RAM, `Qwen2.5-Coder-7B-Instruct-Q4_K_M` works well for autocomplete and `DeepSeek-R1-Distill-Qwen-14B-Q4_0` works well for chat.
+4. Go to the Developer tab in LM Studio and start the server.
+5. Configure Continue.dev extension with by adding your selected models. For example:
+    ```json
+    {
+        "models": [
+            {
+            "apiBase": "http://localhost:1234/v1/",
+            "title": "Deepseek R1",
+            "model": "bartowski/deepseek-r1-distill-qwen-14b",
+            "provider": "lmstudio"
+            }
+        ],
+        "tabAutocompleteModel": {
+            "provider": "lmstudio",
+            "apiBase": "http://localhost:1234/v1/",
+            "title": "Qwen 2.5 Coder",
+            "model": "qwen2.5-coder-7b-instruct"
+        },
+    }
 
 ## 📰 History
 
