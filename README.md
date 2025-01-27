@@ -126,6 +126,7 @@ Models relevant for local Copilot-use. Ordered by most recent first.
 | [replit-v1-3b](https://huggingface.co/replit/replit-code-v1-3b) | 3B | 20+ | 724 | 2023-5 |  |
 | [SantaCoder](https://huggingface.co/bigcode/santacoder) | 1.1B | Python, Java, JavaScript | 331 | 2023-4 | Tiny model selectively trained on 3 languages from 'The Stack' |
 | [Qwen 2.5 Coder](https://github.com/QwenLM/Qwen2.5-Coder) | 32b | 92 different languages | 3998 | 2024-11 |  |
+| [Deepseek R1](https://huggingface.co/deepseek-ai/DeepSeek-R1) | 671B | Many | 3052 | 2025-01 |  |
 
 
 **Note:** due to the pace of new model releases, this section is doomed to be out of date.
