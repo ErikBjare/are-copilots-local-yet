@@ -101,6 +101,12 @@ extensions:
     notes: "VSCode extension with chat, autocomplete, and actions."
     link: "https://github.com/continuedev/continue"
 
+  - name: "Clipboard Conqueror"
+    editor: ["any"]
+    released: "2024-11-27"
+    link: "https://github.com/aseichter2007/ClipboardConqueror"
+    notes: "Copy-paste copilot integration alternative. No autocomplete. No integration. Manual context management made easy." 
+
 tools:
   - name: "gpt-engineer"
     stars: ">42k"
