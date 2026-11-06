@@ -57,7 +57,7 @@ As an alternative, local Copilots enable:
 
 {% macro rows(items) %}| Name | Editors | :star: | Released | Notes |
 | ---- | ------- | ------ | -------- | ----- |
-{% for item in items %}| [{{ item.name }}{% if item.new %}NEW!{% endif %}]({{ item.link }}) | {{ (item.editors or []) | join(", ") }} | {{ item.stars or '' }} | {{ item.released or '' }} | {{ item.notes or '' }} |
+{% for item in items %}| [{{ item.name }}]({{ item.link }}) | {{ (item.editors or []) | join(", ") }} | {{ item.stars or '' }} | {{ item.released or '' }} | {{ item.notes or '' }} |
 {% endfor %}{% endmacro %}
 ## 🧩 Completion
 
