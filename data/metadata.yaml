@@ -119,12 +119,12 @@ https://github.com/aaif-goose/goose:
 https://github.com/anomalyco/opencode:
   archived: false
   created: '2025-04-30'
-  fetched_at: '2026-11-06T15:51:24Z'
+  fetched_at: '2026-11-06T15:57:25Z'
   latest_release:
     date: '2026-10-28'
     tag: v1.19.5
   pushed_at: '2026-11-06'
-  stars: 224975
+  stars: 224977
 https://github.com/aseichter2007/ClipboardConqueror:
   archived: false
   created: '2023-11-06'
@@ -170,12 +170,12 @@ https://github.com/charmbracelet/crush:
 https://github.com/cline/cline:
   archived: false
   created: '2024-07-06'
-  fetched_at: '2026-11-06T15:51:24Z'
+  fetched_at: '2026-11-06T15:57:25Z'
   latest_release:
     date: '2026-10-26'
     tag: v4.1.26
   pushed_at: '2026-11-06'
-  stars: 71395
+  stars: 71396
 https://github.com/continuedev/continue:
   archived: false
   created: '2023-05-24'
@@ -266,10 +266,10 @@ https://github.com/github/copilot.vim:
   fetched_at: '2026-11-06T15:30:59Z'
   pushed_at: '2026-08-11'
   stars: 11706
-https://github.com/huggingface/huggingface-vscode:
+https://github.com/huggingface/llm-vscode:
   archived: false
   created: '2023-02-16'
-  fetched_at: '2026-11-06T15:30:59Z'
+  fetched_at: '2026-11-06T15:57:25Z'
   latest_release:
     date: '2023-09-26'
     tag: v0.1.0
@@ -318,21 +318,21 @@ https://github.com/olimorris/codecompanion.nvim:
 https://github.com/open-webui/open-webui:
   archived: false
   created: '2023-10-06'
-  fetched_at: '2026-11-06T15:51:24Z'
+  fetched_at: '2026-11-06T15:57:25Z'
   latest_release:
     date: '2026-11-03'
     tag: v0.13.0
   pushed_at: '2026-11-06'
-  stars: 157923
+  stars: 157924
 https://github.com/openai/codex:
   archived: false
   created: '2025-04-13'
-  fetched_at: '2026-11-06T15:51:24Z'
+  fetched_at: '2026-11-06T15:57:25Z'
   latest_release:
     date: '2026-11-06'
     tag: rust-v0.167.0
   pushed_at: '2026-11-06'
-  stars: 133456
+  stars: 133458
 https://github.com/paul-gauthier/aider:
   archived: false
   created: '2023-05-09'
@@ -405,12 +405,12 @@ https://github.com/voideditor/void:
 https://github.com/zed-industries/zed:
   archived: false
   created: '2021-02-20'
-  fetched_at: '2026-11-06T15:54:32Z'
+  fetched_at: '2026-11-06T15:57:25Z'
   latest_release:
     date: '2026-11-04'
     tag: v1.27.0
   pushed_at: '2026-11-06'
-  stars: 93226
+  stars: 93229
 https://huggingface.co/Phind/Phind-CodeLlama-34B-v2:
   created: '2023-08-28'
   fetched_at: '2026-11-06T15:30:59Z'

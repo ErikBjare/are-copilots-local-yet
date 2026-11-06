@@ -67,7 +67,7 @@ Editor extensions and servers that complete code using LLMs:
 | [Tabby](https://github.com/TabbyML/tabby) | vscode, vim, jetbrains | 33920 | 2023-09-30 | Completes the cursor selection |
 | [turbopilot](https://github.com/ravenscroftj/turbopilot) | vscode | 3763 | 2023-04-10 | Completions with FIM support, inspired by fauxpilot |
 | [Llama Coder](https://github.com/ex3ndr/llama-coder) | vscode | 2084 | 2023-11-21 | Uses Ollama |
-| [HuggingFace-vscode](https://github.com/huggingface/huggingface-vscode) | vscode | 1316 | 2023-06-19 | Fork of Tabnine, supports Starcoder |
+| [llm-vscode](https://github.com/huggingface/llm-vscode) | vscode | 1316 | 2023-06-19 | Fork of Tabnine; renamed from huggingface-vscode, local completion via llm-ls |
 | [StarcoderEx](https://github.com/Lisoveliy/StarCoderEx) | vscode | 98 | 2023-05-05 | Completes the cursor selection |
 | [WizardCoder-VSC](https://github.com/mzbac/wizardCoder-vsc) | vscode | 147 | 2023-06-19 | PoC, article available |
 | [KoboldAIConnect](https://github.com/Phiality-dot/KoboldAIConnect-VSCODE) | vscode |  | 2023-10-07 | Copilot clone using local KoboldAI backend |
@@ -88,7 +88,7 @@ Chat and agent extensions inside your editor:
 | [gen.nvim](https://github.com/David-Kunz/gen.nvim) | vim | 1527 | 2023-10-01 | Edit selection using custom prompts |
 | [rift](https://github.com/morph-labs/rift) |  | 3051 | 2023-06-20 | VSCode extension. Lets you write code by chatting, makes your IDE agentic, AI engineer that works alongside you. |
 | [Refact.AI](https://github.com/smallcloudai/refact) |  | 3531 | 2023-10-06 | Full self-hostable code completion, chat and training service, complete with VSCode extension. |
-| [Cline](https://github.com/cline/cline) | vscode | 71395 | 2024-07-06 | Autonomous agent in VS Code; BYOK, local models via Ollama/LM Studio |
+| [Cline](https://github.com/cline/cline) | vscode | 71396 | 2024-07-06 | Autonomous agent in VS Code; BYOK, local models via Ollama/LM Studio |
 | [Roo Code](https://github.com/RooCodeInc/Roo-Code) | vscode | 24241 | 2024-10-31 | Cline fork that grew into a team-of-agents extension; archived 2026 |
 | [Kilo Code](https://github.com/Kilo-Org/kilocode) | vscode, jetbrains | 27879 | 2025-03-10 | Open-source agentic platform built on the Cline/Roo lineage |
 | [avante.nvim](https://github.com/avante-corp/avante.nvim) | vim | 18179 | 2024-08-14 | Cursor-style Neovim plugin; provider-configurable, local backends supported |
@@ -101,7 +101,7 @@ Editors with built-in LLM support:
 | Name | Editors | :star: | Released | Notes |
 | ---- | ------- | ------ | -------- | ----- |
 | [Cursor](https://github.com/cursor/cursor) | vscode | 33322 | 2023-03-14 | Fork of VSCode, not open-source |
-| [Zed](https://github.com/zed-industries/zed) | zed | 93226 | 2021-02-20 | Native editor with Ollama/LM Studio providers and an agent panel |
+| [Zed](https://github.com/zed-industries/zed) | zed | 93229 | 2021-02-20 | Native editor with Ollama/LM Studio providers and an agent panel |
 | [Void](https://github.com/voideditor/void) | vscode | 28716 | 2024-09-11 | Open-source Cursor alternative (VSCode fork); archived 2026 |
 
 ## ⌨️ CLI Agents
@@ -113,8 +113,8 @@ Terminal-based coding agents:
 | [aider](https://github.com/paul-gauthier/aider) |  | 49981 | 2023-06-08 | AI pair programming in your terminal, works well with pre-existing, larger codebases |
 | [gptme](https://github.com/ErikBjare/gptme) |  | 4468 |  | Supporting open models. Developed by me, @ErikBjare |
 | [mentat](https://github.com/biobootloader/mentat) |  | 2540 | 2023-07-25 | Mentat coordinates edits across multiple locations and files. |
-| [Codex CLI](https://github.com/openai/codex) |  | 133456 | 2025-04-13 | OpenAI's terminal agent; --oss runs it against a local open-weight model |
-| [OpenCode](https://github.com/anomalyco/opencode) |  | 224975 | 2025-04-30 | Provider-agnostic terminal agent with local provider support |
+| [Codex CLI](https://github.com/openai/codex) |  | 133458 | 2025-04-13 | OpenAI's terminal agent; --oss runs it against a local open-weight model |
+| [OpenCode](https://github.com/anomalyco/opencode) |  | 224977 | 2025-04-30 | Provider-agnostic terminal agent with local provider support |
 | [Qwen Code](https://github.com/QwenLM/qwen-code) |  | 29048 | 2025-06-26 | Qwen's terminal agent, tuned for open-weight Qwen coder models |
 | [Crush](https://github.com/charmbracelet/crush) |  | 28980 | 2025-05-21 | Charm's glamorous terminal agent; any provider including local |
 | [Goose](https://github.com/aaif-goose/goose) |  | 56297 | 2024-08-23 | Extensible local agent with MCP extensions; install, execute, edit, test |
@@ -143,7 +143,7 @@ Similar to/inspired by ChatGPT's "Advanced Data Analysis" feature (previously "C
 | [octogen](https://github.com/dbpunk-labs/octogen) |  | 279 |  | Local Code Interpreter executing in Docker environment. |
 | [terminal-x](https://github.com/davidfant/terminal-x) |  | 36 |  | Very early prototype that converts natural language into shell commands, unmaintained since Sept. 2021 |
 | [DODA](https://github.com/agentcasa/doda) |  |  |  | Electron based GUI for a local OpenAI Dev Assistant |
-| [Open WebUI](https://github.com/open-webui/open-webui) |  | 157923 | 2023-10-06 | Self-hosted chat UI for Ollama and OpenAI-compatible backends |
+| [Open WebUI](https://github.com/open-webui/open-webui) |  | 157924 | 2023-10-06 | Self-hosted chat UI for Ollama and OpenAI-compatible backends |
 
 ## ⚙️ Runtimes
 

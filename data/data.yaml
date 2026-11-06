@@ -33,11 +33,11 @@ completion:
     editors: [vscode]
     notes: "Uses Ollama"
 
-  - name: "HuggingFace-vscode"
-    link: "https://github.com/huggingface/huggingface-vscode"
+  - name: "llm-vscode"
+    link: "https://github.com/huggingface/llm-vscode"
     released: "2023-06-19"
     editors: [vscode]
-    notes: "Fork of Tabnine, supports Starcoder"
+    notes: "Fork of Tabnine; renamed from huggingface-vscode, local completion via llm-ls"
 
   - name: "StarcoderEx"
     link: "https://github.com/Lisoveliy/StarCoderEx"
