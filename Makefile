@@ -4,3 +4,7 @@ README.md: README.md.in data/metadata.yaml
 .PHONY: data/metadata.yaml
 data/metadata.yaml:
 	python3 scripts/update_metadata.py
+
+.PHONY: check
+check:
+	python3 scripts/validate.py

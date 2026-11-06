@@ -31,7 +31,7 @@ for cat in tables:
             row["new"] = row["released"] > cutoff
 
 
-rendered_template = template.render(tables)
+rendered_template = template.render({k.replace("-", "_"): v for k, v in tables.items()})
 
 with open("README.md", "w") as f:
     f.write(rendered_template)

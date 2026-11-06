@@ -1,295 +1,265 @@
-# This file contains all the tools presented in the README.
-# Add a tool to the appropriate section, then the CI will rebuild the README.
+# Every tool in the README lives here. Add an entry to the right section; CI rebuilds the README.
+# Schema: data/schema.json. Check with `make check`. Don't hand-write stars or last-activity:
+# those come from data/metadata.yaml. Old and abandoned projects stay (they're history).
 
-extensions:
+completion:
   - name: "GitHub Copilot"
-    editor: ["VSCode", "vim"]
-    stars: "Many"
-    released: "2021-6-29"
-    notes: "The GitHub Original, not open-source. Local models (Ollama, BYOK) supported in VS Code chat."
     link: "https://github.com/github/copilot.vim"
-
-  - name: "Cursor"
-    editor: ["VSCode"]
-    stars: ">17k"
-    released: "2023-3-14"
-    notes: "Fork of VSCode, not open-source"
-    link: "https://github.com/getcursor/cursor"
+    released: "2021-06-29"
+    editors: [vscode, vim]
+    notes: "The GitHub Original, not open-source. Local models (Ollama, BYOK) supported in VS Code chat."
 
   - name: "Fauxpilot"
-    editor: ["VSCode"]
-    stars: ">12k"
-    released: "2022-9-3"
-    notes: "Early local PoC. Stale?"
     link: "https://github.com/fauxpilot/fauxpilot"
+    released: "2022-09-03"
+    editors: [vscode]
+    notes: "Early local PoC. Stale?"
 
   - name: "Tabby"
-    editor: ["VSCode", "vim", "IntelliJ"]
-    stars: ">8k"
-    released: "2023-9-30"
-    notes: "Completes the cursor selection"
     link: "https://github.com/TabbyML/tabby"
+    released: "2023-09-30"
+    editors: [vscode, vim, jetbrains]
+    notes: "Completes the cursor selection"
 
   - name: "turbopilot"
-    editor: ["VSCode"]
-    stars: ">3k"
-    released: "2023-4-10"
-    notes: "Completions with FIM support, inspired by fauxpilot"
     link: "https://github.com/ravenscroftj/turbopilot"
+    released: "2023-04-10"
+    editors: [vscode]
+    notes: "Completions with FIM support, inspired by fauxpilot"
 
   - name: "Llama Coder"
-    editor: ["VSCode"]
-    stars: ">450"
-    released: "2023-11-21"
-    notes: "Uses Ollama"
     link: "https://github.com/ex3ndr/llama-coder"
+    released: "2023-11-21"
+    editors: [vscode]
+    notes: "Uses Ollama"
 
   - name: "HuggingFace-vscode"
-    editor: ["VSCode"]
-    stars: ">300"
-    released: "2023-6-19"
-    notes: "Fork of Tabnine, supports Starcoder"
     link: "https://github.com/huggingface/huggingface-vscode"
-
-  - name: "localpilot"
-    editor: ["VSCode"]
-    stars: ">140"
-    released: "2023-10-2"
-    notes: "Utility for easily hosting models locally, for use with official Copilot extension using custom API endpoint."
-    link: "https://github.com/danielgross/localpilot"
+    released: "2023-06-19"
+    editors: [vscode]
+    notes: "Fork of Tabnine, supports Starcoder"
 
   - name: "StarcoderEx"
-    editor: ["VSCode"]
-    stars: ">60"
-    released: "2023-5-5"
-    notes: "Completes the cursor selection"
     link: "https://github.com/Lisoveliy/StarCoderEx"
+    released: "2023-05-05"
+    editors: [vscode]
+    notes: "Completes the cursor selection"
 
   - name: "WizardCoder-VSC"
-    editor: ["VSCode"]
-    stars: ">50"
-    released: "2023-6-19"
-    notes: "PoC, article available"
     link: "https://github.com/mzbac/wizardCoder-vsc"
-    article: "https://medium.com/@anchen.li/build-your-own-copliot-using-open-source-llm-ff9da556cb09"
+    released: "2023-06-19"
+    editors: [vscode]
+    notes: "PoC, article available"
+    links: {article: "https://medium.com/@anchen.li/build-your-own-copliot-using-open-source-llm-ff9da556cb09"}
 
   - name: "KoboldAIConnect"
-    editor: ["VSCode"]
-    released: "2023-10-7"
-    link: "https://github.com/Phiality-dot/KoboldAIConnect-VSCODE/"
+    link: "https://github.com/Phiality-dot/KoboldAIConnect-VSCODE"
+    released: "2023-10-07"
+    editors: [vscode]
     notes: "Copilot clone using local KoboldAI backend"
 
-  - name: "gen.nvim"
-    editor: ["vim"]
-    released: "2023-10-1"
-    link: "https://github.com/David-Kunz/gen.nvim"
-    notes: "Edit selection using custom prompts"
-
-  - name: "uniteai"
-    editor: ["VSCode", "emacs", "lsp"]
-    released: "2023-8-27"
-    link: "https://github.com/freckletonj/uniteai"
-
-  - name: "Privy"
-    editor: ["VSCode"]
-    released: "2024-1-8"
-    link: "https://github.com/srikanth235/privy"
-    notes: "A privacy-first coding assistant."
-
   - name: "twinny"
-    editor: ["VSCode"]
-    released: "2024-1-24"
     link: "https://github.com/rjmacarthy/twinny"
+    released: "2024-01-24"
+    editors: [vscode]
     notes: "The most no-nonsense locally hosted AI code completion plugin for VS Code"
 
+  - name: "LocalCompletion"
+    link: "https://github.com/lufixSch/LocalCompletion"
+    released: "2023-11-15"
+    editors: [vscode]
+    notes: "Inline completion with support for any OpenAI compatible backend"
+
+
+editor-agent:
   - name: "continue"
-    editor: ["VSCode", "JetBrains"]
-    stars: ">22k"
-    released: "2023-5-24"
-    notes: "VSCode & JetBrains extension with chat, tab-autocomplete, and actions."
     link: "https://github.com/continuedev/continue"
+    released: "2023-05-24"
+    editors: [vscode, jetbrains]
+    notes: "VSCode & JetBrains extension with chat, tab-autocomplete, and actions."
 
   - name: "wingman"
-    editor: ["VSCode"]
-    released: "2023-12-06"
     link: "https://github.com/nvms/wingman"
+    released: "2023-12-06"
+    editors: [vscode]
     notes: "Prompts. Presets. Modes."
 
-tools:
-  - name: "gpt-engineer"
-    stars: ">42k"
-    released: "2023-6-6"
-    notes: "Specify what you want it to build, the AI asks for clarification, and then builds it."
-    link: "https://github.com/AntonOsika/gpt-engineer"
+  - name: "uniteai"
+    link: "https://github.com/freckletonj/uniteai"
+    released: "2023-08-27"
+    editors: [vscode, emacs, lsp]
 
-  - name: "gpt-pilot"
-    stars: ">4k"
-    released: "2023-7-18"
-    notes: "Very similar to gpt-engineer"
-    link: "https://github.com/Pythagora-io/gpt-pilot"
+  - name: "Privy"
+    link: "https://github.com/srikanth235/privy"
+    released: "2024-01-08"
+    editors: [vscode]
+    notes: "A privacy-first coding assistant."
 
-  - name: "aider"
-    stars: ">3k"
-    released: "2023-6-8"
-    notes: "AI pair programming in your terminal, works well with pre-existing, larger codebases"
-    link: "https://github.com/paul-gauthier/aider"
+  - name: "gen.nvim"
+    link: "https://github.com/David-Kunz/gen.nvim"
+    released: "2023-10-01"
+    editors: [vim]
+    notes: "Edit selection using custom prompts"
 
   - name: "rift"
-    stars: ">2k"
-    released: "2023-6-20"
-    notes: "VSCode extension. Lets you write code by chatting, makes your IDE agentic, AI engineer that works alongside you."
     link: "https://github.com/morph-labs/rift"
-
-  - name: "mentat"
-    stars: ">1k"
-    released: "2023-7-25"
-    notes: "Mentat coordinates edits across multiple locations and files."
-    link: "https://github.com/biobootloader/mentat"
-
-  - name: "clippinator"
-    stars: ">200"
-    released: "2023-4-15"
-    notes: "Uses a team of agents to plan, write, debug, and test"
-    link: "https://github.com/ennucore/clippinator"
+    released: "2023-06-20"
+    notes: "VSCode extension. Lets you write code by chatting, makes your IDE agentic, AI engineer that works alongside you."
 
   - name: "Refact.AI"
-    stars: "1k"
+    link: "https://github.com/smallcloudai/refact"
     released: "2023-10-06"
     notes: "Full self-hostable code completion, chat and training service, complete with VSCode extension."
-    link: "https://github.com/smallcloudai/refact"
 
-  - name: "LocalCompletion"
-    editor: ["VSCode"]
-    released: "2023-11-15"
-    link: "https://github.com/lufixSch/LocalCompletion"
-    notes: "Inline completion with support for any OpenAI compatible backend"
+
+ide:
+  - name: "Cursor"
+    link: "https://github.com/getcursor/cursor"
+    released: "2023-03-14"
+    editors: [vscode]
+    notes: "Fork of VSCode, not open-source"
+
+
+cli-agent:
+  - name: "aider"
+    link: "https://github.com/paul-gauthier/aider"
+    released: "2023-06-08"
+    notes: "AI pair programming in your terminal, works well with pre-existing, larger codebases"
+
+  - name: "gptme"
+    link: "https://github.com/ErikBjare/gptme"
+    notes: "Supporting open models. Developed by me, @ErikBjare"
+
+  - name: "mentat"
+    link: "https://github.com/biobootloader/mentat"
+    released: "2023-07-25"
+    notes: "Mentat coordinates edits across multiple locations and files."
+
+
+autonomous:
+  - name: "gpt-engineer"
+    link: "https://github.com/AntonOsika/gpt-engineer"
+    released: "2023-06-06"
+    notes: "Specify what you want it to build, the AI asks for clarification, and then builds it."
+
+  - name: "gpt-pilot"
+    link: "https://github.com/Pythagora-io/gpt-pilot"
+    released: "2023-07-18"
+    notes: "Very similar to gpt-engineer"
+
+  - name: "clippinator"
+    link: "https://github.com/ennucore/clippinator"
+    released: "2023-04-15"
+    notes: "Uses a team of agents to plan, write, debug, and test"
+
 
 chat:
   - name: "open-interpreter"
-    stars: ">14k"
-    notes: "open-source, locally running implementation of OpenAI's Code Interpreter"
     link: "https://github.com/KillianLucas/open-interpreter"
-
-  - name: "gptme"
-    stars: ">80"
-    notes: "Supporting open models. Developed by me, @ErikBjare"
-    link: "https://github.com/ErikBjare/gptme"
+    notes: "open-source, locally running implementation of OpenAI's Code Interpreter"
 
   - name: "octogen"
-    stars: ">40"
-    notes: "Local Code Interpreter executing in Docker environment."
     link: "https://github.com/dbpunk-labs/octogen"
+    notes: "Local Code Interpreter executing in Docker environment."
 
   - name: "terminal-x"
-    stars: ">30"
-    notes: "Very early prototype that converts natural language into shell commands, unmaintained since Sept. 2021"
     link: "https://github.com/davidfant/terminal-x"
+    notes: "Very early prototype that converts natural language into shell commands, unmaintained since Sept. 2021"
 
   - name: "DODA"
-    stars: ">50"
-    notes: "Electron based GUI for a local OpenAI Dev Assistant"
     link: "https://github.com/agentcasa/doda"
+    notes: "Electron based GUI for a local OpenAI Dev Assistant"
+
+
+runtime:
+  - name: "ollama"
+    link: "https://github.com/jmorganca/ollama"
+    released: "2023-08-27"
+    notes: "Easily get up and running with large language models locally."
+
+
+other:
+  - name: "localpilot"
+    link: "https://github.com/danielgross/localpilot"
+    released: "2023-10-02"
+    editors: [vscode]
+    notes: "Utility for easily hosting models locally, for use with official Copilot extension using custom API endpoint."
+
+  - name: "Clipboard Conqueror"
+    link: "https://github.com/aseichter2007/ClipboardConqueror"
+    released: "2023-12-29"
+    notes: "Copy-paste copilot alternative usable from any editor. No autocomplete, no integration; manual context management made easy."
+
 
 models:
   - name: "Phind CodeLlama v2"
+    link: "https://huggingface.co/Phind/Phind-CodeLlama-34B-v2"
+    released: "2023-08-27"
     size: "34B"
     languages: "Many"
-    stars: ">400"
-    released: "2023-8-27"
-    notes: ""
-    link: "https://huggingface.co/Phind/Phind-CodeLlama-34B-v2"
 
   - name: "WizardCoder-Python"
+    link: "https://huggingface.co/WizardLM/WizardCoder-Python-34B-V1.0"
+    released: "2023-08"
     size: "7/13/34B"
     languages: "Python"
-    stars: ">500"
-    released: "2023-8"
-    notes: ""
-    link: "https://huggingface.co/WizardLM/WizardCoder-Python-34B-V1.0"
 
   - name: "CodeLlama"
+    link: "https://github.com/facebookresearch/codellama"
+    released: "2023-08"
     size: "7/13/34B"
     languages: "Many"
-    stars: ">2k"
-    released: "2023-8"
-    notes: ""
-    link: "https://github.com/facebookresearch/codellama"
 
   - name: "WizardCoder"
+    link: "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0"
+    released: "2023-06"
     size: "15B"
     languages: "80+"
-    stars: ">390"
-    released: "2023-6"
     notes: "Fine-tuning of Starcoder"
-    link: "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0"
 
   - name: "replit-glaive"
+    link: "https://huggingface.co/sahil2801/replit-code-instruct-glaive"
+    released: "2023-07"
     size: "3B"
     languages: "1?"
-    stars: ">70"
-    released: "2023-7"
     notes: "Small model fine-tuned on high-quality data with impressive performance."
-    link: "https://huggingface.co/sahil2801/replit-code-instruct-glaive"
 
   - name: "Starcoder"
+    link: "https://github.com/bigcode-project/starcoder"
+    released: "2023-05"
     size: "15B"
     languages: "80+"
-    stars: ">5k"
-    released: "2023-5"
-    notes: ""
-    link: "https://github.com/bigcode-project/starcoder"
 
   - name: "replit-v1-3b"
+    link: "https://huggingface.co/replit/replit-code-v1-3b"
+    released: "2023-05"
     size: "3B"
     languages: "20+"
-    stars: ">600"
-    released: "2023-5"
-    notes: ""
-    link: "https://huggingface.co/replit/replit-code-v1-3b"
 
   - name: "SantaCoder"
+    link: "https://huggingface.co/bigcode/santacoder"
+    released: "2023-04"
     size: "1.1B"
     languages: "Python, Java, JavaScript"
-    stars: ">300"
-    released: "2023-4"
     notes: "Tiny model selectively trained on 3 languages from 'The Stack'"
-    link: "https://huggingface.co/bigcode/santacoder"
 
   - name: "Qwen 2.5 Coder"
+    link: "https://github.com/QwenLM/Qwen2.5-Coder"
+    released: "2024-11"
     size: "32b"
     languages: "92 different languages"
-    stars: ">4k"
-    released: "2024-11"
-    notes: ""
-    link: "https://github.com/QwenLM/Qwen2.5-Coder"
 
   - name: "Deepseek R1"
+    link: "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+    released: "2025-01"
     size: "671B"
     languages: "Many"
-    stars: ">1k"
-    released: "2025-01"
-    notes: ""
-    link: "https://huggingface.co/deepseek-ai/DeepSeek-R1"
-
 
 
 datasets:
   - name: "The Stack"
+    link: "https://huggingface.co/datasets/bigcode/the-stack"
+    released: "2022-10"
     size: "3TB/6TB"
     languages: "358"
-    stars: ">500"
-    released: "2022-10"
     notes: "Excludes weak-copyleft licenses (MPL, LGPL, EGL) since v1.1"
-    link: "https://huggingface.co/datasets/bigcode/the-stack"
-
-misc:
-  - name: "ollama"
-    stars: ">1k"
-    released: "2023-8-27"
-    notes: "Easily get up and running with large language models locally."
-    link: "https://github.com/jmorganca/ollama"
-
-  - name: "Clipboard Conqueror"
-    released: "2023-12-29"
-    notes: "Copy-paste copilot alternative usable from any editor. No autocomplete, no integration; manual context management made easy."
-    link: "https://github.com/aseichter2007/ClipboardConqueror"

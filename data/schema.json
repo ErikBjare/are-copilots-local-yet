@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "are-copilots-local-yet data.yaml",
+  "type": "object",
+  "propertyNames": {
+    "enum": ["completion", "editor-agent", "ide", "cli-agent", "autonomous", "chat", "runtime", "other", "models", "datasets"]
+  },
+  "additionalProperties": {"type": "array", "items": {"$ref": "#/$defs/entry"}},
+  "$defs": {
+    "date": {
+      "type": "string",
+      "description": "YYYY, YYYY-MM or YYYY-MM-DD, zero-padded. First public release (cite the source in the PR).",
+      "pattern": "^[0-9]{4}(-(0[1-9]|1[0-2])(-(0[1-9]|[12][0-9]|3[01]))?)?$"
+    },
+    "entry": {
+      "type": "object",
+      "required": ["name", "link"],
+      "additionalProperties": false,
+      "properties": {
+        "name": {"type": "string", "minLength": 1},
+        "link": {"type": "string", "pattern": "^https://[^ ]+[^/ ]$", "description": "https, no trailing slash, unique across the file"},
+        "released": {"$ref": "#/$defs/date"},
+        "editors": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {"enum": ["vscode", "vim", "emacs", "jetbrains", "lsp", "zed", "any"]}
+        },
+        "open_source": {"type": "boolean"},
+        "status": {"enum": ["active", "maintained-slowly", "abandoned", "archived", "superseded"], "description": "Optional override of the computed status; requires status_note"},
+        "status_note": {"type": "string", "minLength": 1},
+        "superseded_by": {"type": "string", "description": "Must be the name of another entry"},
+        "notes": {"type": "string", "maxLength": 200, "pattern": "^[^|\\n]*$", "description": "Short, no pipes or newlines (they break the table)"},
+        "links": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "homepage": {"type": "string", "pattern": "^https://"},
+            "docs": {"type": "string", "pattern": "^https://"},
+            "article": {"type": "string", "pattern": "^https://"}
+          }
+        },
+        "size": {"type": "string"},
+        "languages": {"type": "string"},
+        "license": {"type": "string"}
+      },
+      "dependentRequired": {"status": ["status_note"]}
+    }
+  }
+}
