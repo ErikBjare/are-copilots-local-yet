@@ -21,12 +21,16 @@ Current trends and state of the art for using open & local LLM models as copilot
 
 - [Summary](#-summary)
 - [Background](#-background)
-- [Editor Extensions](#-editor-extensions)
-- [Tools](#-tools)
+- [Completion](#-completion)
+- [Editor Agents](#-editor-agents)
+- [IDEs](#-ides)
+- [CLI Agents](#-cli-agents)
+- [Autonomous](#-autonomous)
 - [Chat Interfaces](#-chat-interfaces)
+- [Runtimes](#-runtimes)
+- [Other](#-other)
 - [Models](#-models)
 - [Datasets](#-datasets)
-- [Misc Tools](#-misc-tools)
 - [Suggested Setup](#-suggested-setup)
 - [History](#-history)
 - [Stats](#-stats)
@@ -51,41 +55,58 @@ As an alternative, local Copilots enable:
 - 🎯 The ability to run models specialized for a particular language/task
 - 🔒 [Constraining the LLM output](https://twitter.com/ErikBjare/status/1656731582001020928) to fit a particular format/syntax.
 
-## 🧩 Editor Extensions
+{% macro rows(items) %}| Name | Editors | :star: | Released | Notes |
+| ---- | ------- | ------ | -------- | ----- |
+{% for item in items %}| [{{ item.name }}]({{ item.link }}) | {{ (item.editors or []) | join(", ") }} | {{ item.stars or '' }} | {{ item.released or '' }} | {{ item.notes or '' }} |
+{% endfor %}{% endmacro %}
+## 🧩 Completion
 
-Editor extensions used to complete code using LLMs:
+Editor extensions and servers that complete code using LLMs:
 
-| Name          | Editor   | :star:  | Released | Notes     |
-| ------------- | -------- | ------- | -------- | --------- |
-{% for item in extensions %}| [{{ item.name }}{% if item.new %}NEW!{% endif %}]({{ item.link }}) | {{ item.editor | join(", ") }} | {{ item.stars }} | {{ item.released or '' }} | {{ item.notes }} |
-{% endfor %}
+{{ rows(completion) }}
+## 💬 Editor Agents
 
-## 🛠️ Tools
+Chat and agent extensions inside your editor:
+
+{{ rows(editor_agent) }}
+## 🖥️ IDEs
+
+Editors with built-in LLM support:
+
+{{ rows(ide) }}
+## ⌨️ CLI Agents
+
+Terminal-based coding agents:
+
+{{ rows(cli_agent) }}
+## 🛠️ Autonomous
 
 Tools that try to generate projects/features from specification:
 
-| Name           | :star:  | Released  | Notes |
-| -------------- | ------- | --------- | ----- |
-{% for item in tools %}| [{{ item.name }}]({{ item.link }}) | {{ item.stars }} | {{ item.released }} | {{ item.notes }} |
-{% endfor %}
-
+{{ rows(autonomous) }}
 ## 🗨️ Chat Interfaces
 
 Chat interfaces with shell/REPL/notebook access.
 Similar to/inspired by ChatGPT's "Advanced Data Analysis" feature (previously "Code Interpreter").
 
-| Name           | :star:  | Notes     |
-| -------------- | ------- | --------- |
-{% for item in chat %}| [{{ item.name }}]({{ item.link }}) | {{ item.stars }} | {{ item.notes }} |
-{% endfor %}
+{{ rows(chat) }}
+## ⚙️ Runtimes
 
+Local model servers:
+
+{{ rows(runtime) }}
+## 🧰 Other
+
+Misc relevant useful tools:
+
+{{ rows(other) }}
 ## 🤖 Models
 
 Models relevant for local Copilot-use. Ordered by most recent first.
 
 | Name                            | Size       | Languages   | :star:  | Released   | Notes   |
 | ------------------------------- | ---------- | ----------- | ------- | ---------- | ------- |
-{% for item in models %}| [{{ item.name }}]({{ item.link }}) | {{ item.size }} | {{ item.languages }} | {{ item.stars }} | {{ item.released }} | {{ item.notes }} |
+{% for item in models %}| [{{ item.name }}]({{ item.link }}) | {{ item.size or "" }} | {{ item.languages or "" }} | {{ item.stars or "" }} | {{ item.released or "" }} | {{ item.notes or "" }} |
 {% endfor %}
 
 **Note:** due to the pace of new model releases, this section is doomed to be out of date.
@@ -96,16 +117,7 @@ Datasets relevant for training models.
 
 | Name                            | Size       | Languages   | :star:  | Released   | Notes   |
 | ------------------------------- | ---------- | ----------- | ------- | ---------- | ------- |
-{% for item in datasets %}| [{{ item.name }}]({{ item.link }}) | {{ item.size }} | {{ item.languages }} | {{ item.stars }} | {{ item.released }} | {{ item.notes }} |
-{% endfor %}
-
-## Tools
-
-Misc relevant useful tools.
-
-| Name                            | :star:  | Released   | Notes   |
-| ------------------------------- | ------- | ---------- | ------- |
-{% for item in misc %}| [{{ item.name }}]({{ item.link }}) | {{ item.stars }} | {{ item.released }} | {{ item.notes }} |
+{% for item in datasets %}| [{{ item.name }}]({{ item.link }}) | {{ item.size or "" }} | {{ item.languages or "" }} | {{ item.stars or "" }} | {{ item.released or "" }} | {{ item.notes or "" }} |
 {% endfor %}
 
 ## Suggested setup
