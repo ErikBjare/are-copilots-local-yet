@@ -114,12 +114,6 @@ extensions:
     link: "https://github.com/nvms/wingman"
     notes: "Prompts. Presets. Modes."
 
-  - name: "Clipboard Conqueror"
-    editor: ["any"]
-    released: "2024-11-27"
-    link: "https://github.com/aseichter2007/ClipboardConqueror"
-    notes: "Copy-paste copilot integration alternative. No autocomplete. No integration. Manual context management made easy." 
-
 tools:
   - name: "gpt-engineer"
     stars: ">42k"
@@ -293,3 +287,8 @@ misc:
     released: "2023-8-27"
     notes: "Easily get up and running with large language models locally."
     link: "https://github.com/jmorganca/ollama"
+
+  - name: "Clipboard Conqueror"
+    released: "2023-12-29"
+    notes: "Copy-paste copilot alternative usable from any editor. No autocomplete, no integration; manual context management made easy."
+    link: "https://github.com/aseichter2007/ClipboardConqueror"
