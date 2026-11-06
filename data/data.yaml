@@ -6,7 +6,7 @@ extensions:
     editor: ["VSCode", "vim"]
     stars: "Many"
     released: "2021-6-29"
-    notes: "The GitHub Original, not local or open-source."
+    notes: "The GitHub Original, not open-source. Local models (Ollama, BYOK) supported in VS Code chat."
     link: "https://github.com/github/copilot.vim"
 
   - name: "Cursor"
