@@ -55,6 +55,8 @@ completion:
   - name: "KoboldAIConnect"
     link: "https://github.com/Phiality-dot/KoboldAIConnect-VSCODE"
     released: "2023-10-07"
+    status: abandoned
+    status_note: "Upstream repository no longer resolves (404 on 2026-11-06); link kept as history"
     editors: [vscode]
     notes: "Copilot clone using local KoboldAI backend"
 
@@ -110,6 +112,8 @@ editor-agent:
   - name: "rift"
     link: "https://github.com/morph-labs/rift"
     released: "2023-06-20"
+    status: abandoned
+    status_note: "Upstream repository no longer resolves (404 on 2026-11-06); link kept as history"
     notes: "VSCode extension. Lets you write code by chatting, makes your IDE agentic, AI engineer that works alongside you."
 
   - name: "Refact.AI"
@@ -256,6 +260,8 @@ chat:
 
   - name: "DODA"
     link: "https://github.com/agentcasa/doda"
+    status: abandoned
+    status_note: "Upstream repository no longer resolves (404 on 2026-11-06); link kept as history"
     notes: "Electron based GUI for a local OpenAI Dev Assistant"
 
   - name: "Open WebUI"

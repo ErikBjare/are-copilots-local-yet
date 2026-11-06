@@ -101,7 +101,7 @@ Editors with built-in LLM support:
 | Name | Editors | :star: | Released | Notes |
 | ---- | ------- | ------ | -------- | ----- |
 | [Cursor](https://github.com/cursor/cursor) | vscode | 33322 | 2023-03-14 | Fork of VSCode, not open-source |
-| [Zed](https://github.com/zed-industries/zed) | zed | 93229 | 2021-02-20 | Native editor with Ollama/LM Studio providers and an agent panel |
+| [Zed](https://github.com/zed-industries/zed) | zed | 93232 | 2021-02-20 | Native editor with Ollama/LM Studio providers and an agent panel |
 | [Void](https://github.com/voideditor/void) | vscode | 28716 | 2024-09-11 | Open-source Cursor alternative (VSCode fork); archived 2026 |
 
 ## ⌨️ CLI Agents
@@ -139,7 +139,7 @@ Similar to/inspired by ChatGPT's "Advanced Data Analysis" feature (previously "C
 
 | Name | Editors | :star: | Released | Notes |
 | ---- | ------- | ------ | -------- | ----- |
-| [open-interpreter](https://github.com/KillianLucas/open-interpreter) |  | 68817 |  | open-source, locally running implementation of OpenAI's Code Interpreter |
+| [open-interpreter](https://github.com/KillianLucas/open-interpreter) |  | 68818 |  | open-source, locally running implementation of OpenAI's Code Interpreter |
 | [octogen](https://github.com/dbpunk-labs/octogen) |  | 279 |  | Local Code Interpreter executing in Docker environment. |
 | [terminal-x](https://github.com/davidfant/terminal-x) |  | 36 |  | Very early prototype that converts natural language into shell commands, unmaintained since Sept. 2021 |
 | [DODA](https://github.com/agentcasa/doda) |  |  |  | Electron based GUI for a local OpenAI Dev Assistant |
@@ -151,9 +151,9 @@ Local model servers:
 
 | Name | Editors | :star: | Released | Notes |
 | ---- | ------- | ------ | -------- | ----- |
-| [ollama](https://github.com/jmorganca/ollama) |  | 186108 | 2023-08-27 | Easily get up and running with large language models locally. |
+| [ollama](https://github.com/jmorganca/ollama) |  | 186109 | 2023-08-27 | Easily get up and running with large language models locally. |
 | [llama.cpp](https://github.com/ggml-org/llama.cpp) |  | 133556 | 2023-03-10 | C/C++ inference for GGUF models; the local backend behind many tools |
-| [vLLM](https://github.com/vllm-project/vllm) |  | 96463 | 2023-02-09 | High-throughput serving engine for open-weight models |
+| [vLLM](https://github.com/vllm-project/vllm) |  | 96464 | 2023-02-09 | High-throughput serving engine for open-weight models |
 
 ## 🧰 Other
 
