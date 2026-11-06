@@ -101,7 +101,7 @@ Editors with built-in LLM support:
 | Name | Editors | :star: | Released | Notes |
 | ---- | ------- | ------ | -------- | ----- |
 | [Cursor](https://github.com/cursor/cursor) | vscode | 33322 | 2023-03-14 | Fork of VSCode, not open-source |
-| [Zed](https://github.com/zed-industries/zed) | zed | 93223 | 2021-02-20 | Native editor with Ollama/LM Studio providers and an agent panel |
+| [Zed](https://github.com/zed-industries/zed) | zed | 93226 | 2021-02-20 | Native editor with Ollama/LM Studio providers and an agent panel |
 | [Void](https://github.com/voideditor/void) | vscode | 28716 | 2024-09-11 | Open-source Cursor alternative (VSCode fork); archived 2026 |
 
 ## ⌨️ CLI Agents
@@ -151,7 +151,7 @@ Local model servers:
 
 | Name | Editors | :star: | Released | Notes |
 | ---- | ------- | ------ | -------- | ----- |
-| [ollama](https://github.com/jmorganca/ollama) |  | 186107 | 2023-08-27 | Easily get up and running with large language models locally. |
+| [ollama](https://github.com/jmorganca/ollama) |  | 186108 | 2023-08-27 | Easily get up and running with large language models locally. |
 | [llama.cpp](https://github.com/ggml-org/llama.cpp) |  | 133556 | 2023-03-10 | C/C++ inference for GGUF models; the local backend behind many tools |
 | [vLLM](https://github.com/vllm-project/vllm) |  | 96463 | 2023-02-09 | High-throughput serving engine for open-weight models |
 
@@ -180,6 +180,11 @@ Models relevant for local Copilot-use. Ordered by most recent first.
 | [SantaCoder](https://huggingface.co/bigcode/santacoder) | 1.1B | Python, Java, JavaScript | 337 | 2023-04 | Tiny model selectively trained on 3 languages from 'The Stack' |
 | [Qwen 2.5 Coder](https://github.com/QwenLM/Qwen2.5-Coder) | 32b | 92 different languages | 16851 | 2024-11 |  |
 | [Deepseek R1](https://huggingface.co/deepseek-ai/DeepSeek-R1) | 671B | Many | 14434 | 2025-01 |  |
+| [Qwen3-Coder](https://huggingface.co/Qwen/Qwen3-Coder-480B-A35B-Instruct) | 480B (35B active) | Many | 1385 | 2025-07 |  |
+| [Devstral Small 2507](https://huggingface.co/mistralai/Devstral-Small-2507) | 24B | Many | 377 | 2025-07 | Mistral agentic coding model; runs on a single 24GB GPU |
+| [DeepSeek-Coder-V2](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct) | 16/236B (MoE, 21B active) | 338 | 718 | 2024-06 |  |
+| [StarCoder2](https://huggingface.co/bigcode/starcoder2-15b) | 3/7/15B | 600+ | 684 | 2024-02 |  |
+| [gpt-oss](https://huggingface.co/openai/gpt-oss-120b) | 20/120B (MoE) | Many | 5496 | 2025-08 | OpenAI's open-weight models; designed for single-GPU local inference |
 
 
 **Note:** due to the pace of new model releases, this section is doomed to be out of date.
@@ -191,6 +196,7 @@ Datasets relevant for training models.
 | Name                            | Size       | Languages   | :star:  | Released   | Notes   |
 | ------------------------------- | ---------- | ----------- | ------- | ---------- | ------- |
 | [The Stack](https://huggingface.co/datasets/bigcode/the-stack) | 3TB/6TB | 358 | 1097 | 2022-10 | Excludes weak-copyleft licenses (MPL, LGPL, EGL) since v1.1 |
+| [The Stack v2](https://huggingface.co/datasets/bigcode/the-stack-v2) | 67.5TB (raw) | 600+ | 674 | 2024-02 | Successor to The Stack; adds Software Heritage archive sources |
 
 
 ## Suggested setup

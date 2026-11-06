@@ -358,6 +358,38 @@ models:
     size: "671B"
     languages: "Many"
 
+  - name: "Qwen3-Coder"
+    link: "https://huggingface.co/Qwen/Qwen3-Coder-480B-A35B-Instruct"
+    released: "2025-07"
+    size: "480B (35B active)"
+    languages: "Many"
+
+  - name: "Devstral Small 2507"
+    link: "https://huggingface.co/mistralai/Devstral-Small-2507"
+    released: "2025-07"
+    size: "24B"
+    languages: "Many"
+    notes: "Mistral agentic coding model; runs on a single 24GB GPU"
+
+  - name: "DeepSeek-Coder-V2"
+    link: "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct"
+    released: "2024-06"
+    size: "16/236B (MoE, 21B active)"
+    languages: "338"
+
+  - name: "StarCoder2"
+    link: "https://huggingface.co/bigcode/starcoder2-15b"
+    released: "2024-02"
+    size: "3/7/15B"
+    languages: "600+"
+
+  - name: "gpt-oss"
+    link: "https://huggingface.co/openai/gpt-oss-120b"
+    released: "2025-08"
+    size: "20/120B (MoE)"
+    languages: "Many"
+    notes: "OpenAI's open-weight models; designed for single-GPU local inference"
+
 
 datasets:
   - name: "The Stack"
@@ -366,3 +398,10 @@ datasets:
     size: "3TB/6TB"
     languages: "358"
     notes: "Excludes weak-copyleft licenses (MPL, LGPL, EGL) since v1.1"
+
+  - name: "The Stack v2"
+    link: "https://huggingface.co/datasets/bigcode/the-stack-v2"
+    released: "2024-02"
+    size: "67.5TB (raw)"
+    languages: "600+"
+    notes: "Successor to The Stack; adds Software Heritage archive sources"
