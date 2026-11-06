@@ -103,9 +103,10 @@ extensions:
     notes: "The most no-nonsense locally hosted AI code completion plugin for VS Code"
 
   - name: "continue"
+    editor: ["VSCode", "JetBrains"]
     stars: ">22k"
     released: "2023-5-24"
-    notes: "VSCode extension with chat, autocomplete, and actions."
+    notes: "VSCode & JetBrains extension with chat, tab-autocomplete, and actions."
     link: "https://github.com/continuedev/continue"
 
   - name: "wingman"
