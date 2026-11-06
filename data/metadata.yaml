@@ -2,12 +2,12 @@
 https://github.com/AntonOsika/gpt-engineer:
   archived: true
   created: '2023-04-29'
-  fetched_at: '2026-11-06T15:30:59Z'
+  fetched_at: '2026-11-06T15:51:24Z'
   latest_release:
     date: '2024-06-06'
     tag: v0.3.1
   pushed_at: '2025-05-14'
-  stars: 54979
+  stars: 54977
 https://github.com/David-Kunz/gen.nvim:
   archived: false
   created: '2023-09-30'
@@ -32,6 +32,15 @@ https://github.com/KillianLucas/open-interpreter:
     tag: rust-v0.0.59
   pushed_at: '2026-11-04'
   stars: 68817
+https://github.com/Kilo-Org/kilocode:
+  archived: false
+  created: '2025-03-10'
+  fetched_at: '2026-11-06T15:51:24Z'
+  latest_release:
+    date: '2026-11-05'
+    tag: v7.8.27
+  pushed_at: '2026-11-06'
+  stars: 27879
 https://github.com/Lisoveliy/StarCoderEx:
   archived: true
   created: '2023-05-05'
@@ -41,6 +50,15 @@ https://github.com/Lisoveliy/StarCoderEx:
     tag: release1.0.5
   pushed_at: '2024-04-02'
   stars: 98
+https://github.com/OpenHands/OpenHands:
+  archived: false
+  created: '2024-03-13'
+  fetched_at: '2026-11-06T15:51:24Z'
+  latest_release:
+    date: '2026-11-06'
+    tag: v1.37.0
+  pushed_at: '2026-11-06'
+  stars: 92809
 https://github.com/Pythagora-io/gpt-pilot:
   archived: false
   created: '2023-08-16'
@@ -53,15 +71,60 @@ https://github.com/QwenLM/Qwen2.5-Coder:
   fetched_at: '2026-11-06T15:30:59Z'
   pushed_at: '2026-03-24'
   stars: 16851
+https://github.com/QwenLM/qwen-code:
+  archived: false
+  created: '2025-06-26'
+  fetched_at: '2026-11-06T15:51:24Z'
+  latest_release:
+    date: '2026-11-05'
+    tag: sdk-typescript-v0.1.28
+  pushed_at: '2026-11-06'
+  stars: 29048
+https://github.com/RooCodeInc/Roo-Code:
+  archived: true
+  created: '2024-10-31'
+  fetched_at: '2026-11-06T15:51:24Z'
+  latest_release:
+    date: '2026-05-15'
+    tag: v3.54.0
+  pushed_at: '2026-05-15'
+  stars: 24241
+https://github.com/SWE-agent/SWE-agent:
+  archived: false
+  created: '2024-04-02'
+  fetched_at: '2026-11-06T15:51:24Z'
+  latest_release:
+    date: '2025-05-22'
+    tag: v1.1.0
+  pushed_at: '2026-11-02'
+  stars: 20743
 https://github.com/TabbyML/tabby:
   archived: false
   created: '2023-03-16'
-  fetched_at: '2026-11-06T15:30:59Z'
+  fetched_at: '2026-11-06T15:51:24Z'
   latest_release:
     date: '2026-01-25'
     tag: v0.32.0
   pushed_at: '2026-06-30'
-  stars: 33921
+  stars: 33920
+https://github.com/aaif-goose/goose:
+  archived: false
+  created: '2024-08-23'
+  fetched_at: '2026-11-06T15:51:24Z'
+  latest_release:
+    date: '2026-10-28'
+    tag: v1.57.0
+  pushed_at: '2026-11-06'
+  stars: 56297
+https://github.com/anomalyco/opencode:
+  archived: false
+  created: '2025-04-30'
+  fetched_at: '2026-11-06T15:51:24Z'
+  latest_release:
+    date: '2026-10-28'
+    tag: v1.19.5
+  pushed_at: '2026-11-06'
+  stars: 224975
 https://github.com/aseichter2007/ClipboardConqueror:
   archived: false
   created: '2023-11-06'
@@ -71,6 +134,15 @@ https://github.com/aseichter2007/ClipboardConqueror:
     tag: '1.00'
   pushed_at: '2025-01-11'
   stars: 444
+https://github.com/avante-corp/avante.nvim:
+  archived: false
+  created: '2024-08-14'
+  fetched_at: '2026-11-06T15:51:24Z'
+  latest_release:
+    date: '2026-10-31'
+    tag: v0.5.0
+  pushed_at: '2026-11-05'
+  stars: 18179
 https://github.com/bigcode-project/starcoder:
   archived: false
   created: '2023-04-24'
@@ -86,6 +158,24 @@ https://github.com/biobootloader/mentat:
     tag: v1.0.18
   pushed_at: '2025-01-07'
   stars: 2540
+https://github.com/charmbracelet/crush:
+  archived: false
+  created: '2025-05-21'
+  fetched_at: '2026-11-06T15:51:24Z'
+  latest_release:
+    date: '2026-11-05'
+    tag: v0.100.0
+  pushed_at: '2026-11-06'
+  stars: 28980
+https://github.com/cline/cline:
+  archived: false
+  created: '2024-07-06'
+  fetched_at: '2026-11-06T15:51:24Z'
+  latest_release:
+    date: '2026-10-26'
+    tag: v4.1.26
+  pushed_at: '2026-11-06'
+  stars: 71395
 https://github.com/continuedev/continue:
   archived: false
   created: '2023-05-24'
@@ -95,6 +185,12 @@ https://github.com/continuedev/continue:
     tag: v2.0.0-vscode
   pushed_at: '2026-11-05'
   stars: 36421
+https://github.com/cursor/cursor:
+  archived: false
+  created: '2023-03-12'
+  fetched_at: '2026-11-06T15:52:32Z'
+  pushed_at: '2026-05-12'
+  stars: 33322
 https://github.com/danielgross/localpilot:
   archived: false
   created: '2023-10-01'
@@ -137,21 +233,33 @@ https://github.com/facebookresearch/codellama:
 https://github.com/fauxpilot/fauxpilot:
   archived: false
   created: '2022-08-03'
-  fetched_at: '2026-11-06T15:30:59Z'
+  fetched_at: '2026-11-06T15:51:24Z'
   pushed_at: '2024-04-09'
-  stars: 14653
+  stars: 14652
 https://github.com/freckletonj/uniteai:
   archived: false
   created: '2023-06-09'
   fetched_at: '2026-11-06T15:30:59Z'
   pushed_at: '2025-02-03'
   stars: 337
-https://github.com/getcursor/cursor:
+https://github.com/ggml-org/llama.cpp:
   archived: false
-  created: '2023-03-12'
-  fetched_at: '2026-11-06T15:30:59Z'
-  pushed_at: '2026-05-12'
-  stars: 33323
+  created: '2023-03-10'
+  fetched_at: '2026-11-06T15:51:24Z'
+  latest_release:
+    date: '2026-11-04'
+    tag: v0.9.0
+  pushed_at: '2026-11-06'
+  stars: 133556
+https://github.com/ggml-org/llama.vscode:
+  archived: false
+  created: '2025-01-06'
+  fetched_at: '2026-11-06T15:51:24Z'
+  latest_release:
+    date: '2026-11-05'
+    tag: v0.0.77
+  pushed_at: '2026-11-05'
+  stars: 1551
 https://github.com/github/copilot.vim:
   archived: false
   created: '2021-10-20'
@@ -170,12 +278,12 @@ https://github.com/huggingface/huggingface-vscode:
 https://github.com/jmorganca/ollama:
   archived: false
   created: '2023-06-26'
-  fetched_at: '2026-11-06T15:30:59Z'
+  fetched_at: '2026-11-06T15:51:24Z'
   latest_release:
     date: '2026-11-03'
     tag: v0.40.15
   pushed_at: '2026-11-06'
-  stars: 186105
+  stars: 186107
 https://github.com/lufixSch/LocalCompletion:
   archived: false
   created: '2023-10-29'
@@ -198,15 +306,51 @@ https://github.com/nvms/wingman:
   fetched_at: '2026-11-06T15:30:59Z'
   pushed_at: '2024-06-26'
   stars: 70
+https://github.com/olimorris/codecompanion.nvim:
+  archived: false
+  created: '2023-12-27'
+  fetched_at: '2026-11-06T15:51:24Z'
+  latest_release:
+    date: '2026-10-17'
+    tag: v20.0.1
+  pushed_at: '2026-11-02'
+  stars: 6924
+https://github.com/open-webui/open-webui:
+  archived: false
+  created: '2023-10-06'
+  fetched_at: '2026-11-06T15:51:24Z'
+  latest_release:
+    date: '2026-11-03'
+    tag: v0.13.0
+  pushed_at: '2026-11-06'
+  stars: 157923
+https://github.com/openai/codex:
+  archived: false
+  created: '2025-04-13'
+  fetched_at: '2026-11-06T15:51:24Z'
+  latest_release:
+    date: '2026-11-06'
+    tag: rust-v0.167.0
+  pushed_at: '2026-11-06'
+  stars: 133456
 https://github.com/paul-gauthier/aider:
   archived: false
   created: '2023-05-09'
-  fetched_at: '2026-11-06T15:30:59Z'
+  fetched_at: '2026-11-06T15:51:24Z'
   latest_release:
     date: '2025-08-09'
     tag: v0.86.0
   pushed_at: '2026-05-22'
-  stars: 49982
+  stars: 49981
+https://github.com/plandex-ai/plandex:
+  archived: false
+  created: '2023-10-24'
+  fetched_at: '2026-11-06T15:51:24Z'
+  latest_release:
+    date: '2025-07-16'
+    tag: cli/v2.2.1
+  pushed_at: '2025-10-03'
+  stars: 15900
 https://github.com/ravenscroftj/turbopilot:
   archived: true
   created: '2023-04-09'
@@ -243,6 +387,30 @@ https://github.com/srikanth235/privy:
     tag: 0.2.8
   pushed_at: '2024-05-14'
   stars: 992
+https://github.com/vllm-project/vllm:
+  archived: false
+  created: '2023-02-09'
+  fetched_at: '2026-11-06T15:52:32Z'
+  latest_release:
+    date: '2026-11-02'
+    tag: v0.33.0rc3
+  pushed_at: '2026-11-06'
+  stars: 96463
+https://github.com/voideditor/void:
+  archived: true
+  created: '2024-09-11'
+  fetched_at: '2026-11-06T15:51:24Z'
+  pushed_at: '2026-06-02'
+  stars: 28716
+https://github.com/zed-industries/zed:
+  archived: false
+  created: '2021-02-20'
+  fetched_at: '2026-11-06T15:52:32Z'
+  latest_release:
+    date: '2026-11-04'
+    tag: v1.27.0
+  pushed_at: '2026-11-06'
+  stars: 93223
 https://huggingface.co/Phind/Phind-CodeLlama-34B-v2:
   created: '2023-08-28'
   fetched_at: '2026-11-06T15:30:59Z'

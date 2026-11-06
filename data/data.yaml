@@ -70,6 +70,12 @@ completion:
     editors: [vscode]
     notes: "Inline completion with support for any OpenAI compatible backend"
 
+  - name: "llama.vscode"
+    link: "https://github.com/ggml-org/llama.vscode"
+    released: "2025-01-06"
+    editors: [vscode]
+    notes: "llama.cpp's own extension: FIM completion against a local llama.cpp server"
+
 
 editor-agent:
   - name: "continue"
@@ -111,13 +117,55 @@ editor-agent:
     released: "2023-10-06"
     notes: "Full self-hostable code completion, chat and training service, complete with VSCode extension."
 
+  - name: "Cline"
+    link: "https://github.com/cline/cline"
+    released: "2024-07-06"
+    editors: [vscode]
+    notes: "Autonomous agent in VS Code; BYOK, local models via Ollama/LM Studio"
+
+  - name: "Roo Code"
+    link: "https://github.com/RooCodeInc/Roo-Code"
+    released: "2024-10-31"
+    editors: [vscode]
+    notes: "Cline fork that grew into a team-of-agents extension; archived 2026"
+
+  - name: "Kilo Code"
+    link: "https://github.com/Kilo-Org/kilocode"
+    released: "2025-03-10"
+    editors: [vscode, jetbrains]
+    notes: "Open-source agentic platform built on the Cline/Roo lineage"
+
+  - name: "avante.nvim"
+    link: "https://github.com/avante-corp/avante.nvim"
+    released: "2024-08-14"
+    editors: [vim]
+    notes: "Cursor-style Neovim plugin; provider-configurable, local backends supported"
+
+  - name: "CodeCompanion.nvim"
+    link: "https://github.com/olimorris/codecompanion.nvim"
+    released: "2023-12-27"
+    editors: [vim]
+    notes: "Neovim AI plugin with chat, inline and agent modes; Ollama adapter"
+
 
 ide:
   - name: "Cursor"
-    link: "https://github.com/getcursor/cursor"
+    link: "https://github.com/cursor/cursor"
     released: "2023-03-14"
     editors: [vscode]
     notes: "Fork of VSCode, not open-source"
+
+  - name: "Zed"
+    link: "https://github.com/zed-industries/zed"
+    released: "2021-02-20"
+    editors: [zed]
+    notes: "Native editor with Ollama/LM Studio providers and an agent panel"
+
+  - name: "Void"
+    link: "https://github.com/voideditor/void"
+    released: "2024-09-11"
+    editors: [vscode]
+    notes: "Open-source Cursor alternative (VSCode fork); archived 2026"
 
 
 cli-agent:
@@ -135,6 +183,36 @@ cli-agent:
     released: "2023-07-25"
     notes: "Mentat coordinates edits across multiple locations and files."
 
+  - name: "Codex CLI"
+    link: "https://github.com/openai/codex"
+    released: "2025-04-13"
+    notes: "OpenAI's terminal agent; --oss runs it against a local open-weight model"
+
+  - name: "OpenCode"
+    link: "https://github.com/anomalyco/opencode"
+    released: "2025-04-30"
+    notes: "Provider-agnostic terminal agent with local provider support"
+
+  - name: "Qwen Code"
+    link: "https://github.com/QwenLM/qwen-code"
+    released: "2025-06-26"
+    notes: "Qwen's terminal agent, tuned for open-weight Qwen coder models"
+
+  - name: "Crush"
+    link: "https://github.com/charmbracelet/crush"
+    released: "2025-05-21"
+    notes: "Charm's glamorous terminal agent; any provider including local"
+
+  - name: "Goose"
+    link: "https://github.com/aaif-goose/goose"
+    released: "2024-08-23"
+    notes: "Extensible local agent with MCP extensions; install, execute, edit, test"
+
+  - name: "Plandex"
+    link: "https://github.com/plandex-ai/plandex"
+    released: "2023-10-24"
+    notes: "Plan-then-execute terminal agent aimed at large, real-world tasks"
+
 
 autonomous:
   - name: "gpt-engineer"
@@ -151,6 +229,16 @@ autonomous:
     link: "https://github.com/ennucore/clippinator"
     released: "2023-04-15"
     notes: "Uses a team of agents to plan, write, debug, and test"
+
+  - name: "OpenHands"
+    link: "https://github.com/OpenHands/OpenHands"
+    released: "2024-03-13"
+    notes: "AI-driven development platform; runs locally or in sandboxed containers"
+
+  - name: "SWE-agent"
+    link: "https://github.com/SWE-agent/SWE-agent"
+    released: "2024-04-02"
+    notes: "Issue-to-patch research agent (NeurIPS 2024); works with any LM"
 
 
 chat:
@@ -170,12 +258,27 @@ chat:
     link: "https://github.com/agentcasa/doda"
     notes: "Electron based GUI for a local OpenAI Dev Assistant"
 
+  - name: "Open WebUI"
+    link: "https://github.com/open-webui/open-webui"
+    released: "2023-10-06"
+    notes: "Self-hosted chat UI for Ollama and OpenAI-compatible backends"
+
 
 runtime:
   - name: "ollama"
     link: "https://github.com/jmorganca/ollama"
     released: "2023-08-27"
     notes: "Easily get up and running with large language models locally."
+
+  - name: "llama.cpp"
+    link: "https://github.com/ggml-org/llama.cpp"
+    released: "2023-03-10"
+    notes: "C/C++ inference for GGUF models; the local backend behind many tools"
+
+  - name: "vLLM"
+    link: "https://github.com/vllm-project/vllm"
+    released: "2023-02-09"
+    notes: "High-throughput serving engine for open-weight models"
 
 
 other:
