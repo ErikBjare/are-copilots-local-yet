@@ -92,8 +92,8 @@ extensions:
   - name: "twinny"
     editor: ["VSCode"]
     released: "2024-1-24"
-    link: "https://github.com/rjmacarthy/twinny"
-    notes: "The most no-nonsense locally hosted AI code completion plugin for VS Code"
+    link: "https://github.com/twinnydotdev/twinny"
+    notes: "Local code completion, chat, inline edit and code review for VS Code; Ollama, LM Studio, llama.cpp or any OpenAI-compatible server."
 
   - name: "continue"
     stars: ">22k"
